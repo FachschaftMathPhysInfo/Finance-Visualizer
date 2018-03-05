@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fachschafts-Haushalt</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/sunburst.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script> src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:400,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <style>
+        body {
+            padding: 20px;
+            background-color: #ededed;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Dosis', sans-serif;
+        }
+
+        tspan {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .highcharts-title tspan {
+            font-family: 'Dosis', sans-serif;
+            font-size:22px;
+        }
+
+        .highcharts-subtitle tspan {
+            font-family: 'Dosis', sans-serif;
+            font-size:16px;
+        }
+
+        .highcharts-text-outline {
+            stroke-width: 4px;
+        }
+
+        tspan {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+        .ui.tabular.menu .active.item {
+            background: #f4f4f4;
+            margin-right: 2px;
+        }
+
+        .ui.tabular.menu .item {
+            background: #f4f4f4;
+            
+            color: rgba(0,0,0,.95);
+            border-top-width: 1px;
+            border-color: #d4d4d5;
+            font-weight: 700;
+            margin-bottom: -1px;
+            box-shadow: none;
+            border-radius: .28571429rem .28571429rem 0 0!important;
+            margin-right: 2px;
+        }
+
+        .ui.tabular.menu .item:hover {
+            background-color: rgba(255,255,255,.8);;
+            color: rgba(0,0,0,.8);
+        }
+
+
+        .ui.tabular.menu .active.item {
+            background: none #fff;
+            margin-right: 2px;
+        }
+
+        .ui.segment[class*="bottom attached"] {
+            bottom: 0;
+            margin-top: 0;
+            top: 0;
+            margin-bottom: 1rem;
+            box-shadow: 0 1px 2px 0 rgba(34,36,38,.15),none;
+            border-radius: 0 .28571429rem .28571429rem .28571429rem;
+        }
+
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            position: absolute;
+        }
+
+        #einnahmencontainer {
+            display: none;
+        }
+
+        #ausgabencontainer {
+            display: none;
+        }
+
+        #screen {
+            padding: 20px;
+        }
+
+        #togglebutton {
+            width: 200px;
+        }
+
+        #header h3{
+            margin-top: 0;
+        }
+
+        #header h1{
+            margin-bottom: 0;
+        }
+
+        #header{
+            padding: 0;
+        }
+
+
+        #headerimage img{
+            position: relative;
+            width: 100%;
+            max-width: 250px;
+            top: -2px;
+            right: 2px;
+            padding: 0;
+            margin: 0;
+            float: right;
+        }
+
+        #headertext h1{
+            margin-bottom: 0;
+        }
+
+        #headertext h3{
+            margin-top: 0;
+        }
+
+        #headertext{
+            min-width: 250px;
+            white-space: nowrap;
+            float: left;
+        }
+
+        #headerimage{
+            float: right;
+        }
+
+        #ausgabenvalue, #einnahmenvalue{
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+
+        $('.top.menu .item').tab();
+
+        function change(tabnr) {
+            if (tabnr == 1) {
+                $('div').removeClass("active");
+                $('#allgemein').addClass("active");
+
+                $('a').removeClass("active");
+                $('#allgemeintab').addClass("active");
+
+                $('#chartcontainer').hide();
+            } else if (tabnr == 2) {
+                $('div').removeClass("active");
+                $('#einnahmen').addClass("active");
+
+                $('a').removeClass("active");
+                $('#einnahmentab').addClass("active");
+
+                $('#ausgabencontainer').hide();
+                $('#chartcontainer').show();
+                $('#einnahmencontainer').show();
+
+            } else if (tabnr == 3) {
+                $('div').removeClass("active");
+                $('#ausgaben').addClass("active");
+
+                $('a').removeClass("active");
+                $('#ausgabentab').addClass("active");
+
+                $('#einnahmencontainer').hide();
+                $('#chartcontainer').show();
+                $('#ausgabencontainer').show();
+            }
+        }
+    </script>
+
+
+
+
+            
+
+    <div class="two column stackable ui grid">
+
+
+
+        <div class="column">
+
+        <div class="ui grid">
+        
+          <div id="headertext" class="eight wide column">
+                <h1>Fachschafts-Haushalt</h1>
+                <h3>Fachschaft MathPhys</h3>            
+          </div>
+        
+          <div id="headerimage" class="eight wide column">
+            <a href="https://mathphys.fsk.uni-heidelberg.de/w/">
+              <img src="logo.png">
+            </a>
+          </div>
+        </div>
+
+<!--
+        <div id="header">
+            <div id="headertext">
+                <h1>Fachschafts-Finanzen</h1>
+                <h3>Fachschaft MathPhys</h3>
+            </div>
+            <div id="headerimage">
+                <img src="logo.png">
+            </div>
+        </div>
+-->
+
+            <div class="ui top attached tabular menu">
+                  <a id="allgemeintab" onclick="change(1)" class="item active" data-tab="allgemein">Allgemein</a>
+                  <a id="einnahmentab" onclick="change(2)" class="item" data-tab="einnahmen">Einnahmen</a>
+                  <a id="ausgabentab" onclick="change(3)" class="item" data-tab="ausgaben">Ausgaben</a>
+            </div>
+
+            <div id="allgemein" data-tab="allgemein" class="ui bottom attached active tab segment">
+                <p>
+                    Auf dieser Seite stellen wir den Haushalt der Fachschaft MathPhysInfo vor.
+                    Unter dem Tab „Einnahmen“ sind alle unsere Einnahmequellen aufgeführt, unter dem Tab
+                    „Ausgaben“ findet ihr die Ausgaben der Fachschaft. Hier 
+                </p>
+
+            </div>
+
+            <div id="einnahmen" data-tab="einnahmen" class="ui bottom attached tab segment">
+                <h2 id="einnahmenname">Einnahmen 2017</h2>
+                <p id="einnahmentext">Lorem Ipsum</p>
+                <p id="einnahmenvalue">Betrag: 37311.59 €</p>
+            </div>
+
+            <div id="ausgaben" data-tab="ausgaben" class="ui bottom attached tab segment">
+                <h2 id="ausgabenname">Ausgaben 2017</h2>
+                <p id="ausgabentext">Lorem Ipsum</p>
+                <p id="ausgabenvalue">Betrag: 37311.59 €</p>
+            </div>
+<!--
+
+                <div id="content" class="tab-content" role="tablist">
+                    <div id="allgemein" role="tabpanel" class="tab-pane active" style="">
+                        Beschreibungstext zu dem Tool. ERläuterung, dass man auf die anderen Tabs klicken muss lk jl k
+                    </div>
+                    <div id="einnahmen" role="tabpanel" class="tab-pane" style="">
+                        <h2 id="einnahmenname">Einnahmen 2017</h2>
+                        <p id="einnahmentext">Lorem Ipsum</p>
+                        <h5 id="einnahmenvalue">Betrag: 37311.59 €</h5>
+                    </div>
+                    <div id="ausgaben" role="tabpanel" class="tab-pane" style="">
+                        <h2 id="ausgabenname">Ausgaben 2017</h2>
+                        <p id="ausgabentext">Lorem Ipsum</p>
+                        <h5 id="ausgabenvalue">Betrag: 37311.59 €</h5>
+                    </div>
+                </div>
+
+-->
+                
+           
+
+        </div>
+        <div class="column">
+            <div id="chartcontainer" hidden="true" class="ui segment">
+                    <div class="con" id="allgemeincontainer"></div>
+                    <div class="con" id="einnahmencontainer"></div>
+                    <div class="con" id="ausgabencontainer"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="einnahmen.js"></script>
+    <script src="ausgaben.js"></script>
+</body>
+
+</html>
