@@ -34,7 +34,10 @@
             font-family: 'Open Sans', sans-serif;
         }
 
-        h1, h2, h3, h4 {
+        h1,
+        h2,
+        h3,
+        h4 {
             font-family: 'Dosis', sans-serif;
         }
 
@@ -44,12 +47,12 @@
 
         .highcharts-title tspan {
             font-family: 'Dosis', sans-serif;
-            font-size:22px;
+            font-size: 22px;
         }
 
         .highcharts-subtitle tspan {
             font-family: 'Dosis', sans-serif;
-            font-size:16px;
+            font-size: 16px;
         }
 
         .highcharts-text-outline {
@@ -69,20 +72,21 @@
 
         .ui.tabular.menu .item {
             background: #f4f4f4;
-            
-            color: rgba(0,0,0,.95);
+
+            color: rgba(0, 0, 0, .95);
             border-top-width: 1px;
             border-color: #d4d4d5;
             font-weight: 700;
             margin-bottom: -1px;
             box-shadow: none;
-            border-radius: .28571429rem .28571429rem 0 0!important;
+            border-radius: .28571429rem .28571429rem 0 0 !important;
             margin-right: 2px;
         }
 
         .ui.tabular.menu .item:hover {
-            background-color: rgba(255,255,255,.8);;
-            color: rgba(0,0,0,.8);
+            background-color: rgba(255, 255, 255, .8);
+            ;
+            color: rgba(0, 0, 0, .8);
         }
 
 
@@ -96,7 +100,7 @@
             margin-top: 0;
             top: 0;
             margin-bottom: 1rem;
-            box-shadow: 0 1px 2px 0 rgba(34,36,38,.15),none;
+            box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), none;
             border-radius: 0 .28571429rem .28571429rem .28571429rem;
         }
 
@@ -123,20 +127,20 @@
             width: 200px;
         }
 
-        #header h3{
+        #header h3 {
             margin-top: 0;
         }
 
-        #header h1{
+        #header h1 {
             margin-bottom: 0;
         }
 
-        #header{
+        #header {
             padding: 0;
         }
 
 
-        #headerimage img{
+        #headerimage img {
             position: relative;
             width: 100%;
             max-width: 250px;
@@ -147,31 +151,31 @@
             float: right;
         }
 
-        #headertext h1{
+        #headertext h1 {
             margin-bottom: 0;
         }
 
-        #headertext h3{
+        #headertext h3 {
             margin-top: 0;
         }
 
-        #headertext{
+        #headertext {
             min-width: 250px;
             white-space: nowrap;
             float: left;
         }
 
-        #headerimage{
+        #headerimage {
             float: right;
         }
 
-        #ausgabenvalue, #einnahmenvalue{
+        #ausgabenvalue,
+        #einnahmenvalue {
             font-weight: bold;
         }
     </style>
 
     <script>
-
         $('.top.menu .item').tab();
 
         function change(tabnr) {
@@ -211,7 +215,6 @@
 
 
 
-            
 
     <div class="two column stackable ui grid">
 
@@ -219,43 +222,29 @@
 
         <div class="column">
 
-        <div class="ui grid">
-        
-          <div id="headertext" class="eight wide column">
-                <h1>Fachschafts-Haushalt</h1>
-                <h3>Fachschaft MathPhys</h3>            
-          </div>
-        
-          <div id="headerimage" class="eight wide column">
-            <a href="https://mathphys.fsk.uni-heidelberg.de/w/">
+            <div class="ui grid">
+
+                <div id="headertext" class="eight wide column">
+                    <h1>Fachschafts-Haushalt</h1>
+                    <h3>Fachschaft MathPhys</h3>
+                </div>
+
+                <div id="headerimage" class="eight wide column">
+                    <a href="https://mathphys.fsk.uni-heidelberg.de/w/">
               <img src="logo.png">
             </a>
-          </div>
-        </div>
-
-<!--
-        <div id="header">
-            <div id="headertext">
-                <h1>Fachschafts-Finanzen</h1>
-                <h3>Fachschaft MathPhys</h3>
+                </div>
             </div>
-            <div id="headerimage">
-                <img src="logo.png">
-            </div>
-        </div>
--->
 
             <div class="ui top attached tabular menu">
-                  <a id="allgemeintab" onclick="change(1)" class="item active" data-tab="allgemein">Allgemein</a>
-                  <a id="einnahmentab" onclick="change(2)" class="item" data-tab="einnahmen">Einnahmen</a>
-                  <a id="ausgabentab" onclick="change(3)" class="item" data-tab="ausgaben">Ausgaben</a>
+                <a id="allgemeintab" onclick="change(1)" class="item active" data-tab="allgemein">Allgemein</a>
+                <a id="einnahmentab" onclick="change(2)" class="item" data-tab="einnahmen">Einnahmen</a>
+                <a id="ausgabentab" onclick="change(3)" class="item" data-tab="ausgaben">Ausgaben</a>
             </div>
 
             <div id="allgemein" data-tab="allgemein" class="ui bottom attached active tab segment">
                 <p>
-                    Auf dieser Seite stellen wir den Haushalt der Fachschaft MathPhysInfo vor.
-                    Unter dem Tab „Einnahmen“ sind alle unsere Einnahmequellen aufgeführt, unter dem Tab
-                    „Ausgaben“ findet ihr die Ausgaben der Fachschaft. Hier 
+                    Auf dieser Seite stellen wir den Haushalt der Fachschaft MathPhysInfo vor. Unter dem Tab „Einnahmen“ sind alle unsere Einnahmequellen aufgeführt, unter dem Tab „Ausgaben“ findet ihr die Ausgaben der Fachschaft. Hier
                 </p>
 
             </div>
@@ -271,40 +260,19 @@
                 <p id="ausgabentext">Lorem Ipsum</p>
                 <p id="ausgabenvalue">Betrag: 37311.59 €</p>
             </div>
-<!--
 
-                <div id="content" class="tab-content" role="tablist">
-                    <div id="allgemein" role="tabpanel" class="tab-pane active" style="">
-                        Beschreibungstext zu dem Tool. ERläuterung, dass man auf die anderen Tabs klicken muss lk jl k
-                    </div>
-                    <div id="einnahmen" role="tabpanel" class="tab-pane" style="">
-                        <h2 id="einnahmenname">Einnahmen 2017</h2>
-                        <p id="einnahmentext">Lorem Ipsum</p>
-                        <h5 id="einnahmenvalue">Betrag: 37311.59 €</h5>
-                    </div>
-                    <div id="ausgaben" role="tabpanel" class="tab-pane" style="">
-                        <h2 id="ausgabenname">Ausgaben 2017</h2>
-                        <p id="ausgabentext">Lorem Ipsum</p>
-                        <h5 id="ausgabenvalue">Betrag: 37311.59 €</h5>
-                    </div>
-                </div>
 
--->
-                
-           
+
 
         </div>
         <div class="column">
             <div id="chartcontainer" hidden="true" class="ui segment">
-                    <div class="con" id="allgemeincontainer"></div>
-                    <div class="con" id="einnahmencontainer"></div>
-                    <div class="con" id="ausgabencontainer"></div>
+                <div class="con" id="allgemeincontainer"></div>
+                <div class="con" id="einnahmencontainer"></div>
+                <div class="con" id="ausgabencontainer"></div>
             </div>
         </div>
     </div>
-
-
-
 
 
 
