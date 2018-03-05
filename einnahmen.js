@@ -10,7 +10,8 @@
         'title': 'Einnahmen 2017',
         'name': 'Einnahmen 2017',
         'text': 'Lorem Ipsum',
-        'events': {'click': displaytext}
+        'events': {'click': displaytext},
+        'color': '#ededed',
     },{
         'id': '1.1',
         'parent': '0.0',
