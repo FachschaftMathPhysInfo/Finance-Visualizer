@@ -9,35 +9,36 @@
         'parent': '',
         'title': 'Einnahmen 2017',
         'name': 'Einnahmen 2017',
-        'text': 'Lorem Ipsum',
+        'text': 'Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle Studierenden an die Verfasste Studierendenschaft, aber auch die anderen Quellen sind in dieser Grafik aufgeführt.',
         'events': {'click': displaytext},
         'color': '#ededed',
     },{
         'id': '1.1',
         'parent': '0.0',
         'name': 'Einnahmen aus Eigenbeteiligungen',
-        'text': 'FSWE',
+        'text': 'Bei einigen Veranstaltungen der Fachschaft werden Eigenbeteiligungen erhoben, um einen Teil der Kosten, die bei der Veranstaltung entstehen, auszugleichen. Das ist vor allem beim Fachschaftswochenende (FSWE) der Fall, bei dem alle Teilnehmer, die nicht zum ersten Mal teilnehmen, eine Eigenbeteiligung in Höhe von 10€ entrichten. Damit soll der Tatsache Rechnung getragen werden, dass auf dem FSWE neben der inhaltlichen Arbeit für die Fachschaft auch soziale Aktivitäten der Teilnehmenden stattfinden.',
         'value': 375,
         'events': {'click': displaytext}
     },{
         'id': '1.2',
         'parent': '0.0',
         'name': 'Einnahmen aus hoheitlichen Aufgaben',
-        'text': 'AnfiFete',
+        'text': 'Die Erstsemestereinführungen (im Folgenden "Vorkurs") in unseren Fächern werden durch die Fachschaft MathPhysInfo ausgerichtet. Als Abschluss dieses Vorkurses gibt es eine abendliche Feier, die sog. AnfiFete. Die Einnahmen, die durch den Verkauf von Getränken auf der AnfiFete erzielt werden, fließen unserer Fachschaft in der hier angegbenen Höhe zu. Es ist nicht beabsichtigt mit der AnfiFete Gewinn zu erwirtschaften, sondern die Veranstaltung kostendeckend durchführen zu können.'
+',
         'value': 1675.02,
         'events': {'click': displaytext}
     },{
         'id': '1.3',
         'parent': '0.0',
-        'name': 'Einnahme on Pfand',
-        'text': '',
+        'name': 'Einnahme von Pfand',
+        'text': 'Bei unserer Fachschaft können Studierende sich Ordner mit Berichten von mündlichen Prüfungen ausleihen, um sich damit auf eigene Prüfungen vorzubereiten. Beim ersten Ausleihen eines solchen Ordners müssen Studierende ein Pfand in Höhe von 20€ entrichten und erhalten dafür eine Quittung. Wenn sie nach ihrer Prüfung einen eigenen Bericht anfertigen und an die auf unserer Website angegebenen Mailadresse schicken, erhalten sie gegen Vorlage ihrer Quittung das Pfand zurück. Dadurch soll sichergestellt werden, dass es einen kontinuierlichen Zufluss von aktuellen Berichten gibt und das System auch in Zukunft noch funktioniert. Erfahrungen der letzten Jahre haben allerdings gezeigt, dass nicht alle Studierenden einen Bericht einsenden und ihr Pfand wieder abholen, deshalb wird über lange Zeiträume mehr Pfand entgegen genommen als ausgezahlt',
         'value': 850,
         'events': {'click': displaytext}
     },{
         'id': '1.4',
         'parent': '0.0',
         'name': 'Spenden an die Fachschaft',
-        'text': '',
+        'text': 'Unter diesen Posten fallen alle Spenden, die an unsere Fachschaft gehen. Zumeist sind das sog. Tellerspenden bei Veranstaltungen mit Bewirtung.',
         'value': 194.11,
         'events': {'click': displaytext}
     },{
@@ -45,7 +46,7 @@
         'parent': '0.0',
         'title': 'Einnahmen<br> aus VS-Beiträgen',
         'name': 'Einnahmen aus VS-Beiträgen',
-        'text': '',
+        'text': 'Alle immatrikulierten Studierenden der Universität Heidelberg leisten jedes Semester einen Beitrag zur Verfassten Studierendenschaft (VS) in Höhe von 7,50€. Dieser wird  40% dieses Beitrages fließen als Zuweisung in das Budget der Fachschaften.',
         'value': 15717.99,
         'events': {'click': displaytext}
     },{
@@ -53,7 +54,7 @@
         'parent': '0.0',
         'title': 'Rücklagen<br> aus dem Vorjahr',
         'name': 'Rücklagen aus dem Vorjahr',
-        'text': '',
+        'text': 'Nicht verausgabte Mittel aus den Vorjahren fließen dem Haushalt unter diesem Posten zu. Diese Rücklage ermöglicht es große Ausgaben so aufzufangen, dass sie den Haushalt eines einzigen Jahres nicht übermäßig einschränken. Ein Beispiel hierfür ist die Anschaffung des neuen Servers mit 7000€ (s. Posten 4120.01); eine solche Anschaffung wäre aus dem Haushalt eines einzigen Jahres nur schwerlich möglich.',
         'value': 13559.47,
         'events': {'click': displaytext}
     },{
@@ -61,7 +62,7 @@
         'parent': '0.0',
         'title': 'Zweckgebundene<br> Rücklage "ZaPF"',
         'name': 'Zweckgebundene Rücklage "ZaPF"',
-        'text': '',
+        'text': 'Rücklagen aus den Vorjahren können mit einem expliziten Verwendungszweck versehen werden, für die die Mittel in den kommenden Jahren dann genutzt werden können. Diese Rücklage wurde 2016 mit einem Beitrag von 5000€ zur Teilfinanzierung der Bundesfachschaftentagung der Physik im Jahr 2018 angelegt. Entsprechend wird diese Rücklage im Jahr 2017 nicht aufgelöst und erst im Jahr 2018 genutzt.',
         'value': 5000,
         'events': {'click': displaytext}
     }];
