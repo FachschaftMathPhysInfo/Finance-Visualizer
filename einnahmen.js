@@ -9,7 +9,7 @@
         'parent': '',
         'title': 'Einnahmen 2017',
         'name': 'Einnahmen 2017',
-        'text': 'Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle Studierenden an die Verfasste Studierendenschaft, aber auch die anderen Quellen sind in dieser Grafik aufgeführt.',
+        'text': 'Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle Studierenden an die Verfasste Studierendenschaft zahlen, aber auch die anderen Quellen sind in dieser Grafik aufgeführt.',
         'events': {'click': displaytext},
         'color': '#ededed',
     },{
@@ -23,8 +23,7 @@
         'id': '1.2',
         'parent': '0.0',
         'name': 'Einnahmen aus hoheitlichen Aufgaben',
-        'text': 'Die Erstsemestereinführungen (im Folgenden "Vorkurs") in unseren Fächern werden durch die Fachschaft MathPhysInfo ausgerichtet. Als Abschluss dieses Vorkurses gibt es eine abendliche Feier, die sog. AnfiFete. Die Einnahmen, die durch den Verkauf von Getränken auf der AnfiFete erzielt werden, fließen unserer Fachschaft in der hier angegbenen Höhe zu. Es ist nicht beabsichtigt mit der AnfiFete Gewinn zu erwirtschaften, sondern die Veranstaltung kostendeckend durchführen zu können.'
-',
+        'text': 'Die Erstsemestereinführungen (im Folgenden "Vorkurs") in unseren Fächern werden durch die Fachschaft MathPhysInfo ausgerichtet. Als Abschluss dieses Vorkurses gibt es eine abendliche Feier, die sog. AnfiFete. Die Einnahmen, die durch den Verkauf von Getränken auf der AnfiFete erzielt werden, fließen unserer Fachschaft in der hier angegbenen Höhe zu. Es ist nicht beabsichtigt mit der AnfiFete Gewinn zu erwirtschaften, sondern die Veranstaltung kostendeckend durchführen zu können.',
         'value': 1675.02,
         'events': {'click': displaytext}
     },{
@@ -54,7 +53,7 @@
         'parent': '0.0',
         'title': 'Rücklagen<br> aus dem Vorjahr',
         'name': 'Rücklagen aus dem Vorjahr',
-        'text': 'Nicht verausgabte Mittel aus den Vorjahren fließen dem Haushalt unter diesem Posten zu. Diese Rücklage ermöglicht es große Ausgaben so aufzufangen, dass sie den Haushalt eines einzigen Jahres nicht übermäßig einschränken. Ein Beispiel hierfür ist die Anschaffung des neuen Servers mit 7000€ (s. Posten 4120.01); eine solche Anschaffung wäre aus dem Haushalt eines einzigen Jahres nur schwerlich möglich.',
+        'text': 'Nicht verausgabte Mittel aus den Vorjahren fließen dem Haushalt unter diesem Posten zu. Diese Rücklage ermöglicht es große Ausgaben so aufzufangen, dass sie den Haushalt eines einzigen Jahres nicht übermäßig einschränken. Ein Beispiel hierfür ist die Anschaffung des neuen Servers mit 7000€; eine solche Anschaffung wäre aus dem Haushalt eines einzigen Jahres nur schwerlich möglich.',
         'value': 13559.47,
         'events': {'click': displaytext}
     },{
