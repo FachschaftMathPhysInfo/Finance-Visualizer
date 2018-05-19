@@ -1,6 +1,6 @@
 ﻿displaytext = function(event){
     $('#einnahmenname').text(this.name);
-    $('#einnahmenvalue').text('Betrag: ' + this.value + ' €');
+    $('#einnahmenvalue').text('Betrag: ' + Number(this.value).toLocaleString("es-ES", {minimumFractionDigits: 2}) + ' €');
     $('#einnahmentext').text(this.text);
 }
 
