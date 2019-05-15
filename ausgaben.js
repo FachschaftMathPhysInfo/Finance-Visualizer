@@ -9,7 +9,7 @@ displaytext = function(event){
         'id': '0.0',
         'parent': '',
         'title': 'Ausgaben,<br> Rücklagen',
-        'name': 'Ausgaben & Rücklagen 2017',
+        'name': 'Ausgaben & Rücklagen 2018',
         'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen entweder in die Rücklage unserer Fachschaft oder in die Rücklage der Studierendenschaft (falls die Rücklage der Fachschaft ihre Maximalgröße erreicht hat).',
         'events': {'click': displaytext},
         'color': '#ededed'
@@ -421,7 +421,7 @@ displaytext = function(event){
             text: 'Ausgaben & Rücklagen'
         },
         subtitle: {
-            text: 'der Fachschaft MathPhysInfo 2017'
+            text: 'der Fachschaft MathPhysInfo 2018'
         },
         series: [{
             type: "sunburst",
