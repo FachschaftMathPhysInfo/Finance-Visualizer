@@ -1,0 +1,145 @@
+body {
+    padding: 20px;
+    background-color: #ededed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Dosis', sans-serif;
+}
+
+tspan {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.highcharts-title tspan {
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+}
+
+.highcharts-subtitle tspan {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+
+.highcharts-text-outline {
+    stroke-width: 4px;
+}
+
+tspan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.ui.tabular.menu .active.item {
+    background: #f4f4f4;
+    margin-right: 2px;
+}
+
+.ui.tabular.menu .item {
+    background: #f4f4f4;
+
+    color: rgba(0, 0, 0, .95);
+    border-top-width: 1px;
+    border-color: #d4d4d5;
+    font-weight: 700;
+    margin-bottom: -1px;
+    box-shadow: none;
+    border-radius: .28571429rem .28571429rem 0 0 !important;
+    margin-right: 2px;
+}
+
+.ui.tabular.menu .item:hover {
+    background-color: rgba(255, 255, 255, .8);
+    ;
+    color: rgba(0, 0, 0, .8);
+}
+
+
+.ui.tabular.menu .active.item {
+    background: none #fff;
+    margin-right: 2px;
+}
+
+.ui.segment[class*="bottom attached"] {
+    bottom: 0;
+    margin-top: 0;
+    top: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), none;
+    border-radius: 0 .28571429rem .28571429rem .28571429rem;
+}
+
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#einnahmencontainer {
+    display: none;
+}
+
+#ausgabencontainer {
+    display: none;
+}
+
+#screen {
+    padding: 20px;
+}
+
+#togglebutton {
+    width: 200px;
+}
+
+#header h3 {
+    margin-top: 0;
+}
+
+#header h1 {
+    margin-bottom: 0;
+}
+
+#header {
+    padding: 0;
+}
+
+
+#headerimage img {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    top: -2px;
+    right: 2px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+#headertext h1 {
+    margin-bottom: 0;
+}
+
+#headertext h3 {
+    margin-top: 0;
+}
+
+#headertext {
+    min-width: 250px;
+    white-space: nowrap;
+    float: left;
+}
+
+#headerimage {
+    float: right;
+}
+
+#ausgabenvalue,
+#einnahmenvalue {
+    font-weight: bold;
+}
