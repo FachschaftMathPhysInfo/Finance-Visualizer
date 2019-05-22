@@ -42,7 +42,6 @@ tspan {
 
 .ui.tabular.menu .item {
     background: #f4f4f4;
-
     color: rgba(0, 0, 0, .95);
     border-top-width: 1px;
     border-color: #d4d4d5;
@@ -59,7 +58,6 @@ tspan {
     color: rgba(0, 0, 0, .8);
 }
 
-
 .ui.tabular.menu .active.item {
     background: none #fff;
     margin-right: 2px;
@@ -73,7 +71,6 @@ tspan {
     box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15), none;
     border-radius: 0 .28571429rem .28571429rem .28571429rem;
 }
-
 
 #container {
     width: 80%;
@@ -108,7 +105,6 @@ tspan {
 #header {
     padding: 0;
 }
-
 
 #headerimage img {
     position: relative;
