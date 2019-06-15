@@ -1,6 +1,6 @@
 ﻿displaytext = function (event) {
     $('#einnahmenname').text(this.name);
-    $('#einnahmenvalue').text('Betrag: ' + Number(this.value).toLocaleString("es-ES", { minimumFractionDigits: 2 }) + ' €');
+    $('#einnahmenvalue').text('Betrag: ' + Number(this.value).toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
     $('#einnahmentext').text(this.text);
 }
 
@@ -144,6 +144,6 @@ Highcharts.chart('einnahmencontainer', {
     }],
     tooltip: {
         headerFormat: "",
-        pointFormat: '<b>{point.name}</b>: <b>{point.value} €</b>'
+        pointFormat: '<b>{point.name}</b>: <b>{point.value:.2f} €</b>'
     }
 });
