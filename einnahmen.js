@@ -62,7 +62,7 @@ var data = [{
     'text': 'Alle Einnahmen aus kulturellen Veranstaltungen fießen dem Haushalt unter diesem Posten zu. Die einzige Veranstaltung, auf die das zutrift, ist die MathPhysTheo im Wintersemester 18/19.',
     'value': 20691.26,
     'events': { 'click': displaytext },
-    'color': '#e74c3c'
+    'color': '#39d102'
 }, {
     'id': '1.7',
     'parent': '0.0',
@@ -89,7 +89,7 @@ var data = [{
     'text': 'Rücklagen aus den Vorjahren können mit einem expliziten Verwendungszweck versehen werden, für die die Mittel in den kommenden Jahren dann genutzt werden können. Diese Rücklage wurde Ende 2017 mit einem Beitrag von 1700€ zur Finanzierung eines neuen Tresor.',
     'value': 1700,
     'events': { 'click': displaytext },
-    'color': '#e74c3c'
+    'color': '#7a8975'
 }];
 
 // Splice in transparent for the center circle
