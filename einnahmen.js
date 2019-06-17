@@ -1,7 +1,7 @@
 ﻿displaytext = function (event) {
     $('#einnahmenname').text(this.name);
     $('#einnahmenvalue').text('Betrag: ' + Number(this.value).toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
-    $('#einnahmentext').text(this.text);
+    $('#einnahmentext').html(this.text);
 }
 
 var data = [{
@@ -33,7 +33,7 @@ var data = [{
     'id': '1.3',
     'parent': '0.0',
     'name': 'Einnahme von Pfand',
-    'text': 'Bei unserer Fachschaft können Studierende sich Ordner mit Berichten von mündlichen Prüfungen ausleihen, um sich damit auf eigene Prüfungen vorzubereiten. Beim ersten Ausleihen eines solchen Ordners müssen Studierende ein Pfand in Höhe von 20€ entrichten und erhalten dafür eine Quittung. Wenn sie nach ihrer Prüfung einen eigenen Bericht anfertigen und an die auf unserer Website angegebenen Mailadresse schicken, erhalten sie gegen Vorlage ihrer Quittung das Pfand zurück. Dadurch soll sichergestellt werden, dass es einen kontinuierlichen Zufluss von aktuellen Berichten gibt und das System auch in Zukunft noch funktioniert. Erfahrungen der letzten Jahre haben allerdings gezeigt, dass nicht alle Studierenden einen Bericht einsenden und ihr Pfand wieder abholen, deshalb wird über lange Zeiträume mehr Pfand entgegen genommen als ausgezahlt',
+    'text': 'Bei unserer Fachschaft können Studierende sich Ordner mit Berichten von mündlichen Prüfungen ausleihen, um sich damit auf eigene Prüfungen vorzubereiten. Beim ersten Ausleihen eines solchen Ordners müssen Studierende ein Pfand in Höhe von 20€ entrichten und erhalten dafür eine Quittung. Wenn sie nach ihrer Prüfung einen eigenen Bericht anfertigen und an die auf unserer Website angegebenen Mailadresse schicken, erhalten sie gegen Vorlage ihrer Quittung das Pfand zurück. Dadurch soll sichergestellt werden, dass es einen kontinuierlichen Zufluss von aktuellen Berichten gibt und das System auch in Zukunft noch funktioniert. <br> Erfahrungen der letzten Jahre haben allerdings gezeigt, dass nicht alle Studierenden einen Bericht einsenden und ihr Pfand wieder abholen, deshalb wird über lange Zeiträume mehr Pfand entgegen genommen als ausgezahlt',
     'value': 500,
     'events': { 'click': displaytext },
     'color': '#f39c12'
@@ -50,7 +50,7 @@ var data = [{
     'parent': '0.0',
     'title': 'Einnahmen<br> aus VS-Beiträgen',
     'name': 'Einnahmen aus VS-Beiträgen',
-    'text': 'Alle immatrikulierten Studierenden der Universität Heidelberg leisten jedes Semester einen Beitrag zur Verfassten Studierendenschaft (VS) in Höhe von 7,50€. Dieser wird  40% dieses Beitrages fließen als Zuweisung in das Budget der Fachschaften.',
+    'text': 'Alle immatrikulierten Studierenden der Universität Heidelberg leisten jedes Semester einen Beitrag zur Verfassten Studierendenschaft (VS) in Höhe von 7,50€. 40% dieses Beitrages fließen als Zuweisung in das Budget der Fachschaften.',
     'value': 17025.14,
     'events': { 'click': displaytext },
     'color': '#f1c40f'
