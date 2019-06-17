@@ -17,7 +17,7 @@ var data = [{
     'parent': '0.0',
     'title': 'EDV-Bedarf und Infrastruktur',
     'name': 'EDV-Bedarf und Infrastruktur',
-    'text': 'Unsere Fachschaft betreibt ihren eigenen Server samt EDV-System. Aktive Fachschaftler haben in diesem System einen Account samt Mailadresse. In diesem System können Mailinglisten betrieben werden, Dateien, Prüfungsberichte und vertrauliche Gremienunterlagen verwaltet werden, Informationen in einem Wiki dokumentiert werden und der sog. Kummerkasten betrieben werden. Diese Programme sind inzwischen essentieller Teil der Arbeitsabläufe in unserer Fachschaft. Damit diese Infrastruktur langfristig einsetzbar bleibt und technische Probleme nicht die inhaltliche Arbeit der Fachschaft behindern, ist es regelmäßig nötig, Komponenten auszutauschen und zu reparieren.',
+    'text': '<p>Die Fachschaft betreibt ihren eigenen Server samt EDV-System. Aktive Fachschaftler haben in diesem System einen Account samt Mailadresse. In diesem System können Mailinglisten betrieben werden, Dateien inklusive Altklausuren, Prüfungsberichte und vertraulicher Gremienunterlagen verwaltet werden, Informationen in einem Wiki dokumentiert werden und der sog. Kummerkasten betrieben werden. Diese Programme sind inzwischen essentieller Teil der Arbeitsabläufe in unserer Fachschaft. </p><p>Damit diese Infrastruktur langfristig einsetzbar bleibt und technische Probleme nicht die inhaltliche Arbeit der Fachschaft behindern, ist es regelmäßig nötig, Komponenten zu reparieren und auszutauschen.</p>',
     'events': { 'click': displaytext },
     'color':'#045ae5'
 }, {
@@ -33,7 +33,7 @@ var data = [{
     'parent': '0.0',
     'title': 'Druck- und Kopierkosten',
     'name': 'Druck- und Kopierkosten',
-    'text': 'Die Fachschaft betreibt in ihrem Büro einen eigenen Drucker, um alltäglich anfallende Dokumente und Unterlagen bei Bedarf schnell und unkompliziert drucken zu können. Um diesen Drucker in Betrieb zu halten, müssen regelmäßg Papier und Toner beschafft werden. Für Veranstaltungen muss der Druck von Plakaten, Flyern und ähnlichem meist extern in Auftrag gegeben werden.',
+    'text': '<p>Die Fachschaft betreibt in ihrem Büro einen eigenen Drucker, um alltäglich anfallende Dokumente und Unterlagen bei Bedarf schnell und unkompliziert drucken zu können. Um diesen Drucker in Betrieb zu halten, müssen regelmäßg Papier und Toner beschafft werden.</p><p> Für Veranstaltungen muss der Druck von Plakaten, Flyern und ähnlichem meist extern in Auftrag gegeben werden.</p>',
     'events': { 'click': displaytext },
     'color':'#a802e5'
 }, {
@@ -49,7 +49,7 @@ var data = [{
     'parent': '0.0',
     'title': 'Bewirtung',
     'name': 'Bewirtungskosten',
-    'text': 'Im Lauf des Haushaltsjahres richtet die Fachschaft meist eine Reihe kleinerer Veranstaltungen aus, wie beispielsweise Berufsinformationsveranstaltungen (meist als "Wissenschaftler im Beruf" betitelt) oder Treffen, bei denen sich Tutor*innen über die Erfahrungen in ihren Übungsgruppen austauschen können. Da viele dieser Veranstaltungen nach Ende der meisten Lehrveranstaltungen um 18:00 beginnen und bis in den späten Abend gehen, ist es oft nötig für die Teilnehmenden Verpflegung bereitzustellen, damit diese nicht gezwungen sind wegen Hungers eine Veranstaltung vorzeitig zu verlassen. Weiterhin finden jedes Semester einige Gremiensitzungen der Fachschaft und Arbeitstreffen statt, die so lange dauern, dass eine Verpflegung notwendig ist, um die Arbeit sinnvoll zu Ende führen zu können. Ein Beispiel hierfür wäre das Abtippen der Lehrevaluation in der Physik, wofür mehrere Fachschaftler meist von Samstagvormittag bis in den frühen Abend brauchen, weshalb die Fachschaft in den vergangen Jahren für eine Bewirtung zu Mittag gesorgt hat.',
+    'text': '<p>Im Lauf des Haushaltsjahres richtet die Fachschaft meist auch eine Reihe kleinerer Veranstaltungen wie beispielsweise Berufsinformationsveranstaltungen (meist als “Wissenschaftler im Beruf” betitelt) oder Treffen, bei denen sich Tutor*innen über die Erfahrungen in ihren Übungsgruppen austauschen können. Da viele dieser Veranstaltungen nach Ende der meisten Lehrveranstaltungen um 18:00 beginnen und bis in den späten Abend gehen, ist es oft angemessen für die Teilnehmer Verpflegung bereitzustellen, damit diese nicht gezwungen sind, eine Veranstaltung vorzeitig zu verlassen, um zu Abend zu essen.</p><p>Weiterhin finden jedes Semester einige Gremiensitzungen der Fachschaft und Arbeitstreffen statt, die so lange dauern, dass eine Verpflegung notwendig ist, um die Arbeit sinnvoll zu Ende führen zu können. Ein Beispiel hierfür wäre das Abtippen der Lehrevaluation in der Physik, wofür mehrere Fachschaftler meist von Samstagvormittag bis in den frühen Abend brauchen, weshalb die Fachschaft in den vergangen Jahren für eine Bewirtung zu Mittag gesorgt hat</p>',
     'events': { 'click': displaytext },
     'color':'#fc0106'
 }, {
@@ -73,7 +73,7 @@ var data = [{
     'parent': '0.0',
     'title': 'Mitgliedsbeiträge',
     'name': 'Mitgliedsbeiträge',
-    'text': 'Unsere SFSen sind Mitglied in verschiedenen Verbänden und Dachorganisationen; derzeit sind das die "Deutsche Mathematiker Vereinigung" (DMV), "Zusammenkunft aller Physikfachschaften e.V." (ZaPF e.V.), "Konferenz der Mathematikfachschaften e.V." (KoMa e.V.) und "Konferenz der Informatik Fachschaften e.V." (KIF e.V.).In diesen Verbänden sind die SFSen Mitglied, weil sie sich mit Themen der Lehre in den jeweiligen Fächern auseinandersetzen und auf eine Weiterentwicklung dieser im Sinne der Studierenden hinarbeiten. Die Mitgliedschaft unterstützt diese Verbände dabei, ihre Tätigkeit auch langfristig fortsetzen zu können und ermöglicht es Mitgliedern der Fachschaften an Tagungen und Konferenzen der Verbände teilzunehmen und dort die Interessen der Heidelberger Studierenden zu vertreten.',
+    'text': '<p>Unsere SFSen sind Mitglied in verschiedenen Verbänden und Dachorganisationen; derzeit sind das die "Deutsche Mathematiker Vereinigung" (DMV), "Zusammenkunft aller Physikfachschaften e.V." (ZaPF e.V.), "Konferenz der Mathematikfachschaften e.V." (KoMa e.V.) und "Konferenz der Informatik Fachschaften e.V." (KIF e.V.).</p><p>In diesen Verbänden sind die SFSen Mitglied, weil sie sich mit Themen der Lehre in den jeweiligen Fächern auseinandersetzen und auf eine Weiterentwicklung dieser im Sinne der Studierenden hinarbeiten. Die Mitgliedschaft unterstützt diese Verbände dabei, ihre Tätigkeit auch langfristig fortsetzen zu können und ermöglicht es Mitgliedern der Fachschaften an Tagungen und Konferenzen der Verbände teilzunehmen und dort die Interessen der Heidelberger Studierenden zu vertreten.</p>',
     'events': { 'click': displaytext },
     'color':'#86f902'
 }, {
@@ -89,7 +89,7 @@ var data = [{
     'parent': '0.0',
     'title': 'Ausstattung Büro',
     'name': 'Ausstattung Büro/Fachschaftsraum',
-    'text': '',
+    'text': 'Die Fachschaft hat zwei Räume zur Verfügung, in denen Gremienarbeit vorbereitet wird, formale Aufgaben durchgeführt werden, Sitzungen abgehalten werden und in denen man den Studierenden bei Fragen und Problemen zur Verfügung stehen kann. Um diese Aufgaben weiterhin durchführen zu können, müssen je nach Bedarf z.B. Tische, Stühle, Regale oder ähnliches angeschafft werden.',
     'events': { 'click': displaytext },
     'color':'#04f4e8',
 }, {
@@ -97,7 +97,7 @@ var data = [{
     'parent': '1.1',
     'title': 'Anschaffung Server',
     'name': 'Anschaffung Server',
-    'text': '',
+    'text': '<p>Die Fachschaft MathPhysInfo betreibt derzeit verschiedene EDV-Systeme, die aktive Fachschaftler*innen bei ihren verschiedenen Aufgaben unterstützen.Die meisten dieser Programme nehmen inzwischen einen elementaren Platz im Workflow der gesamten FS-Arbeit ein und wird für die effiziente Selbstverwaltung der Angelegenheiten unserer Fachschaft als notwendig erachtet. Deshalb ist es aus Sicht der Autoren eine große Priorität das Vorhandensein und Funktionieren dieser Programm auch in Zukunft sicherzustellen.</p><p>Aktuell wird diese Software auf einem eigenen Server der Fachschaft betrieben. Dieser Server ist seit 2010 in Betrieb also z.B. auch schon länger als die VS der Universität der Heidelberg. Der alte Server hat somit bereits seinen Abschreibungszeitraum durchlebt und wird in absehbarer Zeit nicht mehr in der Lage sein, den Anforderungen der verwendeten Software und den bei der FS-Arbeit anfallenden Datenmengen gerecht zu werden. Um unsere EDV-Infrastruktur auf dem derzeitigen Niveau erhalten zu können und in Zukunft den Gegebenheiten entsprechend erweitern zu können, ist eine Aufwertung der Kapazitäten notwendig. Eine Aufwertung des derzeitigen Servers ist aus technsicher Sicht weder sinnvoll noch möglich. Gleichzeitig sollte bei der Neuanschaffung die zukünftige Erweiterbarkeit des Servers im Auge behalten werden.</p><p>Auf der Grundlage dieser Planungen wurden folgende Anforderungen für einen neuen Server erarbeitet:<ul><li>Redundante Netzteile</li><li>2 Höheneinheiten</li><li>19" Rackmount Kit</li><li>2x CPUs mit 16 Kernen</li><li>128 GB DDR4 ECC Ram, dabei sollte aber nur die Hälfte der RAM Bänke bestückt sein um später aufrüstbar zu sein</li><li>2x 240GB SSD Hotswap Fähig (fürs Betriebssystem)</li><li>6x 4TB SAS HDD Hotswap Fähig</li><li>2x 10Gbit RJ45 Kupfer Netzwerk</li><li>Unterstützung für bis zu 4 hotswapfähige NVMe SSDs</li><li>SAS HBA mit 8 externen Anschlüssen</li>Der alte Server soll danach als Backup-Server genutzt werden.</p>',
     'value': 8859.81,
     'events': { 'click': displaytext },
     'color':'#0262fc'
@@ -187,7 +187,7 @@ var data = [{
     'parent': '1.4',
     'title': 'Transportkosten (Stadtmobil)',
     'name': 'Transportkosten (Stadtmobil)',
-    'text': '',
+    'text': 'Diverse Stadtmobilfahrten',
     'value': 890.32,
     'events': { 'click': displaytext },
     'color':'#fc02ef'
@@ -313,7 +313,7 @@ var data = [{
     'parent': '1.9',
     'title': 'Vorkurs',
     'name': 'Vorkurs',
-    'text': 'Die Erstsemestereinführungen (im Folgenden "Vorkurs") in unseren Fächern werden durch die MathPhysInfo ausgerichtet. Als Abschluss dieses Vorkurses gibt es eine abendliche Feier, die sog. AnfiFete. Für dein Einkauf der Lebensmittel und Getränke sowie die Bereitstellung der nötigen Technik fallen Kosten an, die allerdings durch die Einnahmen im Posten "Einnahmen aus hoheitlichen Veranstaltungen" gedeckt werden.',
+    'text': 'Die Erstsemestereinführungen (im Folgenden “Vorkurs”) in unseren Fächern werden durch die MathPhysInfo ausgerichtet. Als Abschluss dieses Vorkurses gibt es eine abendliche Feier, die sog. AnfiFete. Die Einnahmen, die durch den Verkauf von Getränken auf der AnfiFete erzielt werden, fließen unter diesem Posten dem Haushalt wieder zu. Kosten, die bei der Ausrichtung der AnfiFete entstehen (vor allem der Einkauf der Getränke) fallen unter den Posten 48.01 “Vorkurs”.',
     'value': 1639.14,
     'events': { 'click': displaytext },
     'color':'#80f782'
@@ -322,7 +322,7 @@ var data = [{
     'parent': '1.9',
     'title': 'Vollversammlungen',
     'name': 'Vollversammlungen',
-    'text': '',
+    'text': '<p>Die Fachschaft strebt an, einmal im Semester eine Vollversammlung in jedem ihrer Fächer abzuhalten. Diese Vollversammlungen bestehen meist aus den selben Bestandteilen:<ol><li>ein Anfangsplenum, in dem hochschulpolitische Ereignisse des letzten Semesters dargestellt werden und Themen für die anschließenden Arbeitskreise (AKs) gesammelt werden.</li><li>eine Phase, in der parallel mehrere AKs stattfinden, in denen je nach Interesse der Teilnehmer über verschiedene Themen diskutiert wird. Abhängig vom konkreten Plan der Vollversammlung gibt es einen oder zwei AK-Slots mit jeweils zwei Stunden Dauer.</li><li>ein Abschlussplenum oder eine Sitzung, in der die Ergebnisse der Diskussionen zusammengefasst werden.</li><li>und am Ende ein geselliges Beisamensein während dessen die Themen der Vollversammlung in einem informellen Kreis weiterdiskutiert werden können.</li></ol></p><p>Mit einem solchen Ablaufplan dauert eine Vollversammlung mindestens vier und meist etwa sechs Stunden an. Deshalb werden die Teilnehmenden während der Veranstaltung mit alkoholfreien Getränken und Snacks versorgt. Je nach der Dauer der Veranstaltung und den anderen Umständen der Vollversammlung wird außerdem nach Ablauf des Endplenums eine Bewirtung organisiert, da dies schon in den späten Abendstunden ist und es den Teilnehmern dadurch erst ermöglicht wird am späteren Teil der Vollversammlung beizuwohnen.</p><p>Somit fallen im Rahmen eine Vollversammlung die folgenden Kosten an:<ul><li>Kosten für Ankündigung der Vollversammlung. Meist handelt es sich hierbei um Druckkosten für Plakate und Flyer.</li><li>Kosten für Lebensmittel und Getränke während der Vollversammlung.</li><li>Kosten für Bewirtung am Ende der Vollversammlung.</li></ul></p><p>Aus den folgenden Gründen hält die Fachschaft es für sinnvoll Vollversammlungen in diesem Modus durchzuführen:<ul><li> der Bericht über Entwicklungen in den Gremien der Fakultäten macht die Arbeit der Gremienvertreter transparenter und ermöglicht es einer größeren Zahl an Studis an diesen teilzuhaben.</li><li>den Studierenden wird in den Arbeitskreisen die Möglichkeit gegeben auf Basis dieser Informationen Grundsatz- und Richtungsentscheidungen bei Themen, die ihr Studium betreffen, mitzubeeinflussen und -zugestalten.</li><li>der Austausch zwischen Studierenden und Gremienvertretern in den Arbeitskreisen und beim geselligen Beisamensein ermöglicht es den Studierenden ihre Meinungen einfacher als sonst in hochschulpolitische Entscheidungsprozesse einzubringen und gibt den Gremienvertern die Gelegenheit Input von den Studierenden einzusammeln. Grundsätzlich ist das natürlich auch in den wöchentlich stattfindenden Fachschaftssitzungen möglich, allerdings zeigt die Erfahrung, dass diese Option von vielen Studierenden scheinbar als aufwendiger und weniger attraktiv wahrgenommen wird als eine einmal pro Semester stattfindende Vollversammlung.</li><li>deshalb misst die Fachschaft aber auch gerade den informellen Diskussionen am Ende der Vollversammlung eine hohe Bedeutung zu, da der Austausch hier nochmals einfacher und direkter stattfinden kann.</li><li>durch die zuvor genannten Aspekte wird es den Gremienvertretern also ermöglicht die fachlichen und hochschulpolitischen Interessen der Studierenden in universitären Gremien deutlich besser zu vertreten.</li><li>außerdem wird den Studierenden die Möglichkeit gegeben sich mit Komillitonen aus anderen Semestern und Fachrichtungen auszutauschen.</li></ul></p>',
     'value': 1167.12,
     'events': { 'click': displaytext },
     'color':'#5cf95e'
@@ -331,7 +331,7 @@ var data = [{
     'parent': '1.9',
     'title': 'FSWE',
     'name': 'FSWE',
-    'text': 'Einmal im Semester organisiert die Fachschaft das Fachschaftswochende (FSWE):<br>Während des FSWE fahren aktive Fachschaftler*innen gemeinsam in ein Landheim im Odenwald, um dort zusammen an größeren inhaltlichen Themen zu arbeiten, die Diskussionen zu führen, für die während der Woche und den zeitlich begrenzten Sitzungen keine Zeit bleibt und um langfristige Projekte voranzutreiben. Dazu finden im Lauf des Samstag mehrere Arbeitskreise statt und am Sonntag das Abschlussplenum, in dem die Ergebnisse der AKs vorgestellt und diskutiert werden. In einem Gremienplanspiel werden außerdem die neuen aktiven Fachschaftsmitglieder, die noch keine Gremienerfahrung haben, auf ihre zukünftigen Ämter vorbereitet. Es ist üblich, dass die Teilnehmenden, die nicht zum ersten Mal auf dem FSWE sind, eine Eigenbeteiligung von 10€ entrichten, da die Teilnehmenden während des Wochenendes mit Essen, Snacks und Getränken versorgt werden.<br>Da auf dem FSWE der Fokus eindeutig auf inhaltlicher Arbeit, Fortbildung für Gremienarbeit und Stärkung des sozialen Zusammenhalts unter den aktiven Fachschaftsmitgliedern liegen soll, ist vorgesehen, dass nur aktive Fachschaftler (also meist solche, die ein Amt ausüben) und Einsteiger, die ein ernstzunehmendes Interesse dan der inhaltlichen Arbeit der Fachschaft haben, am FSWE teilnehmen.',
+    'text': '<p>Einmal im Semester organisiert die Fachschaft das Fachschaftswochende (FSWE):</p><p>Während des FSWE fahren aktive Fachschaftler*innen der SFSen Physik, Mathematik und Informatik gemeinsam in ein Landheim im Odenwald, um dort zusammen an größeren inhaltlichen Themen zu arbeiten, die Diskussionen zu führen, für die während derWoche und den zeitlich begrenzten Sitzungen keine Zeit bleibt und um langfristige Projekte voranzutreiben. Dazu finden im Lauf des Samstag mehrere Arbeitskreise statt und am Sonntag das Abschlussplenum, in dem die Ergebnisse der AKs vorgestellt und diskutiert werden. In einem Gremienplanspiel werden außerdem die neuen aktiven Fachschaftsmitglieder, die noch keine Gremienerfahrung haben, auf ihre zukünftigen Ämter vorbereitet. Es ist üblich, dass die Teilnehmenden, die nicht zum ersten Mal auf dem FSWE sind, eine Eigenbeteiligung von 10e entrichten, da die Teilnehmenden während des Wochenendes mit Essen, Snacks und Getränken versorgt werden.</p><p> Durch das FSWE ermöglicht die Fachschaft den Meinungsaustausch in der Gruppe der Studierenden und durch die auf dem FSWE erstellten Konzepte und durch die Ausbildung von Nachwuchs für universitäre Gremien werden langfristig die hochschulpolitischen Belange der Studierenden wahrgenommen.</p><p>Da auf dem FSWE der Fokus eindeutig auf inhaltlicher Arbeit, Fortbildung für Gremienarbeit und Stärkung des sozialen Zusammenhalts unter den aktiven Fachschaftsmitgliedern liegen soll, ist vorgesehen, dass nur aktive Fachschaftler (also meist solche, die ein Amt ausüben) und Einsteiger, die ein ernstzunehmendes Interesse daran haben, in Zukunft an der inhaltlichen Arbeit der Fachschaft teilzunehmen, am FSWE teilnehmen.</p>',
     'value': 2564.15,
     'events': { 'click': displaytext },
     'color':'#3ffc41'
@@ -340,7 +340,7 @@ var data = [{
     'parent': '1.9',
     'title': 'ZaPF in Heidelberg',
     'name': 'ZaPF in Heidelberg',
-    'text': '',
+    'text': '<p>Im Sommersemester 2018 richtet die SFS Physik in Heidelberg eine Bundesfachschaftentagung der Physik aus, eine sog. Zusammenkunft aller Physikfachschaften (ZaPF). Offiziell wird die ZaPF von einen gemeinnützigen Verein, den ZaPF e.V. veranstaltet, inhaltlich wird die Tagung allerdings von Mitgliedern der SFS Physik durchgeführt. Um die Ausrichtung der ZaPF zu unterstützen soll ein Teil der Kosten der ZaPF übernommen werden. Konkret soll ein Teil der Kosten für die Unterbringung der Teilnehmer in der Jugendherberge im Neuenheimer Feld übernommen werden.</p><p> Es wird erwartet, dass 200 Studierende anderer Physik-Fachschaften an der ZaPF teilnehmen werden. Jeder Teilnehmende entrichtet einen Teilnahmebeitrag in Höhe von 25e. Auf der Konferenz werden hochschulpolitische und für Physikstudiengänge spezifische Themen diskutiert und Stellungen zu diesen ausgearbeitet. Außerdem dient die Konferenz der Pflege der überregionalen Studierendenbeziehungen und der Pflege der Mitgliedschaft im ZaPF e.V. (in dem die SFS Physik ebenfalls Mitglied ist).</p>',
     'value': 5000.00,
     'events': { 'click': displaytext },
     'color':'#04ea07'
@@ -349,7 +349,7 @@ var data = [{
     'parent': '1.9',
     'title': 'MathPhysTheo SoSe 18',
     'name': 'MathPhysTheo - Kooperation IMP e.V. SoSe 18',
-    'text': '',
+    'text': '<p>Der Förderverein der Fachschaften Mathematik, Physik und Informatik an der Universität Heidelberg, IMP e.V., veranstaltet die seit mehr als 20 Jahren von verschiedenen mit der Fachschaft verbundenen Veranstaltern ausgerichtete Studierendenfeier MathPhysTheo. Die Veranstaltung gilt als unter Studierenden etabliertes soziales Ereignis zu Beginn der Vorlesungszeit. Entsprechend liegt das Ereignis im Interesse der drei Studienfachschaften gemäß LHG §65, Abs. 2, Satz 1. Ebenfalls werden die dort auch genannten kulturellen Belange der Studierenden auf dem Ereignis bedient, beispielsweise durch Auftritte von Künstlern auf diesen Veranstaltungen. Die Fachschaftssitzung MathPhysInfo sieht es demnach als ihre Aufgabe an, diese Veranstaltung durch das Abschließen eines Überlassungsvertrages für den Veranstaltungsort zu unterstützen. Dafür ist ein Kooperationsvertrag zwischen den Studienfachschaften Mathematik, Physik und Informatik, vertreten durch den Vorsitz der Verfassten Studierendenschaft einerseits und dem Förderverein IMP e.V. andererseits, notwendig.</p>',
     'value': 1126.00,
     'events': { 'click': displaytext },
     'color':'#01c405'
@@ -358,7 +358,7 @@ var data = [{
     'parent': '1.9',
     'title': 'MathPhysTheo WiSe 18/19',
     'name': 'MathPhysTheo WiSe 18/19',
-    'text': '',
+    'text': '<p>Aufgrund rechtlicher Unklarheiten ist es nicht möglich, dass der IMP e.V. die MathPhysTheo im Wintersemester 2018/2019 ausrichtet. Da diese Probleme erst Anfang August bekannt wurden, der Termin für die MathPhysTheo aber bereits auf Mitte Oktober angesetzt worden war, ist es nicht möglich, diese Probleme rechtzeitig auszuräumen. Die einzige Möglichkeit, die MathPhysTheo nicht abzusagen, ist, dass die Studienfachschaften in Ihrer Funktion als Teilkörperschaften öffentlichen Rechts die MathPhysTheo veranstalten. Das heißt, dass alle Einnahmen und Ausgaben über die Fachschaften abgewickelt werden. Entsprechend ist das Finanzvolumen dieses Posten sehr viel größer als das von Posten 48.05. Inhaltlich handelt es sich um die selbe Veranstaltung wie in Posten 48.05.</p>',
     'value': 14857.48,
     'events': { 'click': displaytext },
     'color':'#00aa03'
@@ -367,7 +367,7 @@ var data = [{
     'parent': '1.10',
     'title': 'Anschaffung Tresor',
     'name': 'Anschaffung Tresor',
-    'text': '',
+    'text': '<p>Seit Oktober 2017 ist das elektronische Schloss des alten Tresors defekt und der Tresor kann somit nur noch mit dem einzigen vorhandenen Schlüssel geöffnet werden. Das ist mittelfristig nicht mehr hinnehmbar, da es einen routinierten Fachschaftsdienst unmöglich macht (so kann z.B. nicht regulär Pfand ausgegeben werden). Für dieses Problem werden Lösungen gesucht: Eine Option wäre eine Reparatur des Tresors. Das erscheint der Sitzung allerdings nicht sinnvoll, da der Tresor relativ schlecht ist, sodass die Kosten einer Reparatur wahrscheinlich ähnlich hoch wie die Kosten einer Neuanschaffung wären. Außerdem hat sich in den letzten Monaten herausgestellt, dass der alte Tresor den Anforderungen der Fachschaft nicht mehr gewachsen ist: </p><p> So ist seit den letzten Wahlen M. Jalea studentisches Mitglied im Senat. Für jede Senatssitzung erhält er mehrere hundert Seiten Sitzungsunterlagen, die vertraulich sind und sicher gelagert werden müssen. Das ist derzeit im Fachschaftsraum nicht möglich.Weiterhin sind Fachschaftsmitglieder auch in diverse Zulassungs- und Berufungskommissionen entsandt, in denen sie auch jeweils Unterlagen erhalten, die vertrauliche personenbezogene Daten enthalten; und auch diesen Gremienmitgliedern sollte die Möglichkeit gegeben werden, ihre Arbeitsunterlagen angemessen in der Universität lagern zu können. Im Fachschaftsraum, der ganz bewusst allen Studierenden offen steht, ist das im Allgemeinen nicht möglich. Deshalb wird über die Anschaffung eines Tresors diskutiert, der groß genug ist, um darin mehrere Leitz-Ordner an Unterlagen, sowie die Handkasse, die Stadtmobil-Unterlagen, Fundsachen, teure Hardware, die die Systemadministratoren der Fachschafts-EDV zwischenlagern müssen, und Kassen, die vor und nach Veranstaltungen der Fachschaft sicher gelagert werden müssen, aufnehmen zu können. Als Vorschlag kommt dabei der Wertschutztresor HTI 100-04 der Firma Hartmann auf, der gerade im Angebot ist und den ausformulierten Anforderungen genügt. Der zusätzliche Einbau eines elektronischen Schlosses wird aber für notwendig befunden, damit denjenigen, die regelmäßigen Fachschaftsdienst verüben, auch Zugriff gewährt werden kann und nicht nur den Schlüsselhaltern. </p><p>Der Beschluss einen neuen Tresor anzuschaffen wurde am 15. November 2017 gefasst und da eine Anschaffung 2017 logistisch nicht mehr möglich war, wurde 20. Dezember 2017 beschlossen eine zweckgebundene Rücklage für die Anschaffung eines Tresors einzurichten.</p>',
     'value': 1506.43,
     'events': { 'click': displaytext },
     'color':'#11fcf0'
