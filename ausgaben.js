@@ -10,6 +10,7 @@ var data = [{
     'title': 'Ausgaben',
     'name': 'Ausgaben 2018',
     'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale Ebene der Verfassten Studierendenschaft zurück.',
+    'value':62568.44,
     'events': { 'click': displaytext },
     'color': '#ededed'
 }, {
@@ -92,6 +93,14 @@ var data = [{
     'text': 'Die Fachschaft hat zwei Räume zur Verfügung, in denen Gremienarbeit vorbereitet wird, formale Aufgaben durchgeführt werden, Sitzungen abgehalten werden und in denen man den Studierenden bei Fragen und Problemen zur Verfügung stehen kann. Um diese Aufgaben weiterhin durchführen zu können, müssen je nach Bedarf z.B. Tische, Stühle, Regale oder ähnliches angeschafft werden.',
     'events': { 'click': displaytext },
     'color':'#04f4e8',
+}, {
+    'id': '1.11',
+    'parent': '0.0',
+    'title': 'Rücklagen',
+    'name': 'Einstellung in die Rücklagen',
+    'text': '<p>Es gibt zwei Arten von Rücklagen:<ul><li>Zweckgebundene Rücklagen: Diese kann die Fachschaft im nächsten Haushaltsjahr zweckgebunden ausgeben</li><li>Allgemeine Rücklagen: Diese Rücklagen fließen an die zentrale Ebene der VS ab.</li></ul></p>',
+    'events': { 'click': displaytext },
+    'color':'#f9a200',
 }, {
     'id': '2.1',
     'parent': '1.1',
@@ -380,6 +389,24 @@ var data = [{
     'value': 274.03,
     'events': { 'click': displaytext },
     'color':'#99f7f2'
+}, {
+    'id': '2.39',
+    'parent': '1.11',
+    'title': 'Zweckgebundene Rücklage',
+    'name': 'Zweckgebundene Rücklage',
+    'text': '<p>Rücklagen aus 2018 mit einem expliziten Verwendungszweck fließen dem Haushalt 2019 unter diesem Posten zu. Dieses Jahr handelt es sich dabei um einen Beitrag von 6000 Euro für eine noch ausstehende Rechnung von der MathPhysTheo im WiSe 18/19, die aufgrund von Problemen bei der Rechnungsstellung nicht noch in 2018 bezahlt werden konnte. Details dazu finden sich im Protokoll vom 12.12.2018.</p>',
+    'value': 6000,
+    'events': { 'click': displaytext },
+    'color':'#f9b431'
+}, {
+    'id': '2.40',
+    'parent': '1.11',
+    'title': 'Allgemeine Rücklagen',
+    'name': 'Allgemeine Rücklagen',
+    'text': '<p>Allgemeine Rücklagen: Diese Rücklagen fließen an die zentrale Ebene der VS ab.</p>',
+    'value': 14602.67,
+    'events': { 'click': displaytext },
+    'color':'#f9a200'
 }];
 
 // Splice in transparent for the center circle
