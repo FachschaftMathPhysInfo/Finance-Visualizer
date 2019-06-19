@@ -57,9 +57,9 @@ var data = [{
 }, {
     'id': '1.6',
     'parent': '0.0',
-    'title': 'Einnahmen aus<br>kulturellen Veranstaltungen',
-    'name': 'Einnahmen aus kulturellen Veranstaltungen',
-    'text': 'Alle Einnahmen aus kulturellen Veranstaltungen fießen dem Haushalt unter diesem Posten zu. Die einzige Veranstaltung, auf die das zutrift, ist die MathPhysTheo im Wintersemester 18/19.',
+    'title': 'Einnahmen MathPhysTheo',
+    'name': 'Einnahmen MathPhysTheo im WiSe 18/19',
+    'text': 'Einnahmen der MathPhysTheo im Wintersemester 18/19',
     'value': 20691.26,
     'events': { 'click': displaytext },
     'color': '#39d102'
