@@ -97,8 +97,8 @@ var data = [{
     'id': '1.11',
     'parent': '0.0',
     'title': 'Rücklagen',
-    'name': 'Einstellung in die Rücklagen',
-    'text': '<p>Es gibt zwei Arten von Rücklagen:<ul><li>Zweckgebundene Rücklagen: Diese kann die Fachschaft im nächsten Haushaltsjahr zweckgebunden ausgeben</li><li>Allgemeine Rücklagen: Diese Rücklagen fließen an die zentrale Ebene der VS ab.</li></ul></p>',
+    'name': 'Einstellung in die Rücklagen & Abfluss an die VS',
+    'text': '<p><ul><li>Zweckgebundene Rücklagen: Diese kann die Fachschaft im nächsten Haushaltsjahr zweckgebunden ausgeben</li><li>Abfluss an die VS: Nicht verwendete Mittel fließen an die zentrale Ebene der VS ab.</li></ul></p>',
     'events': { 'click': displaytext },
     'color':'#f9a200',
 }, {
@@ -401,9 +401,9 @@ var data = [{
 }, {
     'id': '2.40',
     'parent': '1.11',
-    'title': 'Allgemeine Rücklagen',
-    'name': 'Allgemeine Rücklagen',
-    'text': '<p>Allgemeine Rücklagen: Diese Rücklagen fließen an die zentrale Ebene der VS ab.</p>',
+    'title': 'Abfluss an die VS',
+    'name': 'Abfluss an die VS',
+    'text': '<p>Am Jahresende fließen nicht verwendete Mittel an den zentralen Haushalt der Verfassten Studierendenschaft (VS) ab. Eine allgemeine, zweck-ungebundene Rücklage wie in den Vorjahren gibt es nicht mehr. Ausgenommen hiervon sind zweckgebundene Rücklagen, deren Dauer auf maximal zwei Jahre beschränkt ist.</p>',
     'value': 14602.67,
     'events': { 'click': displaytext },
     'color':'#f9a200'
