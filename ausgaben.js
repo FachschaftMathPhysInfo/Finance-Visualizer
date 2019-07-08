@@ -16,7 +16,7 @@ var data = [{
 }, {
     'id': '1.1',
     'parent': '0.0',
-    'title': 'EDV-Bedarf und Infrastruktur',
+    'title': 'EDV-Bedarf',
     'name': 'EDV-Bedarf und Infrastruktur',
     'text': '<p>Die Fachschaft betreibt ihren eigenen Server samt EDV-System. Aktive Fachschaftler haben in diesem System einen Account samt Mailadresse. In diesem System können Mailinglisten betrieben werden, Dateien inklusive Altklausuren, Prüfungsberichte und vertraulicher Gremienunterlagen verwaltet werden, Informationen in einem Wiki dokumentiert werden und der sog. Kummerkasten betrieben werden. Diese Programme sind inzwischen essentieller Teil der Arbeitsabläufe in unserer Fachschaft. </p><p>Damit diese Infrastruktur langfristig einsetzbar bleibt und technische Probleme nicht die inhaltliche Arbeit der Fachschaft behindern, ist es regelmäßig nötig, Komponenten zu reparieren und auszutauschen.</p>',
     'events': { 'click': displaytext },
@@ -106,7 +106,7 @@ var data = [{
     'parent': '1.1',
     'title': 'Anschaffung Server',
     'name': 'Anschaffung Server',
-    'text': '<p>Die Fachschaft MathPhysInfo betreibt derzeit verschiedene EDV-Systeme, die aktive Fachschaftler*innen bei ihren verschiedenen Aufgaben unterstützen.Die meisten dieser Programme nehmen inzwischen einen elementaren Platz im Workflow der gesamten FS-Arbeit ein und wird für die effiziente Selbstverwaltung der Angelegenheiten unserer Fachschaft als notwendig erachtet. Deshalb ist es aus Sicht der Autoren eine große Priorität das Vorhandensein und Funktionieren dieser Programm auch in Zukunft sicherzustellen.</p><p>Aktuell wird diese Software auf einem eigenen Server der Fachschaft betrieben. Dieser Server ist seit 2010 in Betrieb also z.B. auch schon länger als die VS der Universität der Heidelberg. Der alte Server hat somit bereits seinen Abschreibungszeitraum durchlebt und wird in absehbarer Zeit nicht mehr in der Lage sein, den Anforderungen der verwendeten Software und den bei der FS-Arbeit anfallenden Datenmengen gerecht zu werden. Um unsere EDV-Infrastruktur auf dem derzeitigen Niveau erhalten zu können und in Zukunft den Gegebenheiten entsprechend erweitern zu können, ist eine Aufwertung der Kapazitäten notwendig. Eine Aufwertung des derzeitigen Servers ist aus technsicher Sicht weder sinnvoll noch möglich. Gleichzeitig sollte bei der Neuanschaffung die zukünftige Erweiterbarkeit des Servers im Auge behalten werden.</p><p>Auf der Grundlage dieser Planungen wurden folgende Anforderungen für einen neuen Server erarbeitet:<ul><li>Redundante Netzteile</li><li>2 Höheneinheiten</li><li>19" Rackmount Kit</li><li>2x CPUs mit 16 Kernen</li><li>128 GB DDR4 ECC Ram, dabei sollte aber nur die Hälfte der RAM Bänke bestückt sein um später aufrüstbar zu sein</li><li>2x 240GB SSD Hotswap Fähig (fürs Betriebssystem)</li><li>6x 4TB SAS HDD Hotswap Fähig</li><li>2x 10Gbit RJ45 Kupfer Netzwerk</li><li>Unterstützung für bis zu 4 hotswapfähige NVMe SSDs</li><li>SAS HBA mit 8 externen Anschlüssen</li>Der alte Server soll danach als Backup-Server genutzt werden.</p>',
+    'text': '<p>Die Fachschaft MathPhysInfo betreibt derzeit verschiedene EDV-Systeme, die aktive Fachschaftler*innen bei ihren verschiedenen Aufgaben unterstützen.Die meisten dieser Programme nehmen inzwischen einen elementaren Platz im Workflow der gesamten FS-Arbeit ein und wird für die effiziente Selbstverwaltung der Angelegenheiten unserer Fachschaft als notwendig erachtet. Deshalb ist es aus Sicht der Autoren eine große Priorität das Vorhandensein und Funktionieren dieser Programm auch in Zukunft sicherzustellen.</p><p>Aktuell wird diese Software auf einem eigenen Server der Fachschaft betrieben. Dieser Server ist seit 2010 in Betrieb also z.B. auch schon länger als die VS der Universität der Heidelberg. Der alte Server hat somit bereits seinen Abschreibungszeitraum durchlebt und wird in absehbarer Zeit nicht mehr in der Lage sein, den Anforderungen der verwendeten Software und den bei der FS-Arbeit anfallenden Datenmengen gerecht zu werden. Um unsere EDV-Infrastruktur auf dem derzeitigen Niveau erhalten zu können und in Zukunft den Gegebenheiten entsprechend erweitern zu können, ist eine Aufwertung der Kapazitäten notwendig. Eine Aufwertung des derzeitigen Servers ist aus technsicher Sicht weder sinnvoll noch möglich. Gleichzeitig sollte bei der Neuanschaffung die zukünftige Erweiterbarkeit des Servers im Auge behalten werden.</p><p>Auf der Grundlage dieser Planungen wurden folgende Anforderungen für einen neuen Server erarbeitet:<ul><li>2x CPUs mit jeweils 16 Kernen</li><li>128 GB DDR4 ECC Ram</li><li>2x 240GB SSD Hotswap Fähig (fürs Betriebssystem)</li><li>6x 4TB SAS HDD Hotswap Fähig</li><li>2x 10Gbit RJ45 Kupfer Netzwerk</li><li>Unterstützung für bis zu 4 hotswapfähige NVMe SSDs</li><li>SAS HBA mit 8 externen Anschlüssen</li><li>Redundante Netzteile</li><li>2 Höheneinheiten</li></ul></p><p>Sowohl Haupt- als auch Sekundärspeicher lassen sich problemlos erweitern. Der alte Server soll danach als Backup-Server genutzt werden. <br> Weitere Informationen finden sich im <a href="https://mathphys.fsk.uni-heidelberg.de/w/wp-content/protokolle/gemeinsam/archiv/2018-06-20.pdf">Protokoll vom 20. 6. 2018</a>. </p>',
     'value': 8859.81,
     'events': { 'click': displaytext },
     'color':'#0262fc'
@@ -212,7 +212,7 @@ var data = [{
 }, {
     'id': '2.18',
     'parent': '1.5',
-    'title': 'Tutorenversammlung Physik',
+    'title': 'Tutorenversammlung',
     'name': 'Verpflegung Tutorenversammlung Physik',
     'text': '',
     'value': 45.00,
@@ -392,7 +392,7 @@ var data = [{
 }, {
     'id': '2.39',
     'parent': '1.11',
-    'title': 'Zweckgebundene Rücklage',
+    'title': 'Zweckgebundene<br>Rücklage',
     'name': 'Zweckgebundene Rücklage',
     'text': '<p>Rücklagen aus 2018 mit einem expliziten Verwendungszweck fließen dem Haushalt 2019 unter diesem Posten zu. Dieses Jahr handelt es sich dabei um einen Beitrag von 6000 Euro für eine noch ausstehende Rechnung von der MathPhysTheo im WiSe 18/19, die aufgrund von Problemen bei der Rechnungsstellung nicht noch in 2018 bezahlt werden konnte. Details dazu finden sich im Protokoll vom 12.12.2018.</p>',
     'value': 6000,
