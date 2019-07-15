@@ -57,9 +57,9 @@ var data = [{
 }, {
     'id': '1.6',
     'parent': '0.0',
-    'title': 'Einnahmen MathPhysTheo',
-    'name': 'Einnahmen MathPhysTheo im WiSe 18/19',
-    'text': 'Einnahmen der MathPhysTheo im Wintersemester 18/19',
+    'title': 'Betrieb Gewerblicher Art',
+    'name': 'Einnahmen Betrieb Gewerblicher Art',
+    'text': 'Unter diesem Posten wurden die Einnahmen der MathPhysTheo Wintersemester 18/19 verbucht. Die MathPhysTheo im Sommersemester 18 wurden über den Förderverein der Fachschaft (IMP e.V.) abgerechnet. Die Ausgaben der  MathPhysTheo sint unter „MathPhysTheo WiSe 18/19“ und „Zweckgebundene Rücklage“ aufgeführt.',
     'value': 20691.26,
     'events': { 'click': displaytext },
     'color': '#39d102'
@@ -91,6 +91,30 @@ var data = [{
     'events': { 'click': displaytext },
     'color': '#7a8975'
 }];
+
+Highcharts.setOptions({
+    lang: {
+        decimalPoint: ',',
+        thousandsSep: '.',
+        loading: 'Daten werden geladen...',
+        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        viewFullscreen: "Vollbildmodus",
+        exportButtonTitle: "Exportieren",
+        printButtonTitle: "Drucken",
+        printChart: "Diagramm drucken",
+        rangeSelectorFrom: "Von",
+        rangeSelectorTo: "Bis",
+        rangeSelectorZoom: "Zeitraum",
+        downloadPNG: 'Download als PNG-Bild',
+        downloadJPEG: 'Download als JPEG-Bild',
+        downloadPDF: 'Download als PDF-Dokument',
+        downloadSVG: 'Download als SVG-Bild',
+        resetZoom: "Zoom zurücksetzen",
+        resetZoomTitle: "Zoom zurücksetzen"             
+    }        
+});
 
 // Splice in transparent for the center circle
 Highcharts.getOptions().colors.splice(0, 0, 'transparent');
@@ -126,7 +150,7 @@ Highcharts.chart('einnahmencontainer', {
             levelIsConstant: false,
             dataLabels: {
                 rotationMode: 'parallel',
-                format: '{point.title}:<br> {point.value} €',
+                format: '{point.title}:<br> {point.value:,.2f} €',
                 filter: {
                     property: 'outerArcLength',
                     operator: '>',
@@ -144,6 +168,6 @@ Highcharts.chart('einnahmencontainer', {
     }],
     tooltip: {
         headerFormat: "",
-        pointFormat: '<b>{point.name}</b>: <b>{point.value:.2f} €</b>'
+        pointFormat: '<b>{point.name}</b>: <b>{point.value:,.2f} €</b>'
     }
 });

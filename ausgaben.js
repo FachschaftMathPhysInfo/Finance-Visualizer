@@ -409,6 +409,31 @@ var data = [{
     'color':'#f9a200'
 }];
 
+Highcharts.setOptions({
+    lang: {
+        decimalPoint: ',',
+        thousandsSep: '.',
+        loading: 'Daten werden geladen...',
+        months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
+        weekdays: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'],
+        shortMonths: ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'],
+        viewFullscreen: "Vollbildmodus",
+        exportButtonTitle: "Exportieren",
+        printButtonTitle: "Drucken",
+        printChart: "Diagramm drucken",
+        rangeSelectorFrom: "Von",
+        rangeSelectorTo: "Bis",
+        rangeSelectorZoom: "Zeitraum",
+        downloadPNG: 'Download als PNG-Bild',
+        downloadJPEG: 'Download als JPEG-Bild',
+        downloadPDF: 'Download als PDF-Dokument',
+        downloadSVG: 'Download als SVG-Bild',
+        resetZoom: "Zoom zurücksetzen",
+        resetZoomTitle: "Zoom zurücksetzen",
+        drillUpText: "abc"
+    }        
+});
+
 // Splice in transparent for the center circle
 Highcharts.getOptions().colors.splice(0, 0, 'transparent');
 
@@ -440,7 +465,7 @@ Highcharts.chart('ausgabencontainer', {
             levelIsConstant: false,
             dataLabels: {
                 rotationMode: 'parallel',
-                format: '{point.title}:<br>{point.value}€',
+                format: '{point.title}:<br>{point.value:,.2f}€',
                 filter: {
                     property: 'outerArcLength',
                     operator: '>',
@@ -450,16 +475,9 @@ Highcharts.chart('ausgabencontainer', {
         }, {
             level: 2,
             dataLabels: {
-                rotationMode: 'parallel',
             }
         }, {
             level: 3,
-            colorByPoint: true,
-            dataLabels: {
-
-            }
-        }, {
-            level: 4,
             colorVariation: {
                 key: 'brightness',
                 to: -0.5
@@ -472,6 +490,6 @@ Highcharts.chart('ausgabencontainer', {
     }],
     tooltip: {
         headerFormat: "",
-        pointFormat: '<b>{point.name}</b>: <b>{point.value:.2f} €</b>'
+        pointFormat: '<b>{point.name}</b>: <b>{point.value:,.2f} €</b>'
     }
 });

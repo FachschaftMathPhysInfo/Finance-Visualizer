@@ -60,6 +60,10 @@ tspan {
     margin-right: 2px;
 }
 
+.highcharts-button-box {
+    display: none;
+}
+
 .ui.segment[class*="bottom attached"] {
     bottom: 0;
     margin-top: 0;
