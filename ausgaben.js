@@ -9,7 +9,7 @@ var data = [{
     'parent': '',
     'title': 'Ausgaben',
     'name': 'Ausgaben 2018',
-    'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale Ebene der Verfassten Studierendenschaft zurück.',
+    'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale Ebene der Verfassten Studierendenschaft zurück.<br>Die Unterposten im Diagramm kann man durch Anklicken auswählen.',
     'value':62568.44,
     'events': { 'click': displaytext },
     'color': '#ededed'
