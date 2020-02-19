@@ -2,7 +2,7 @@
 
 Live Version: [mathphys.info/finanzen/](https://mathphys.info/finanzen/)
 
-![Screenshot](https://static.ethylomat.de/finvis/finvis.png)
+![Screenshot](https://mathphys.info/~tbuss/Finance-Visualizer.png)
 
 ## Verwendet
 * HighCharts für das sunburst Diagramm
