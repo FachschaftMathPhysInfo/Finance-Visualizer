@@ -108,7 +108,11 @@ for (var i = 0; i < parents.length; i++) {
   colorMap[parents[i]] = "#" + colorSeq[i];
 }
 for (var i = 0; i < data.length; i++) {
-  data[i]['color'] = colorMap[data[i]["id"]];
+  if (data[i]['parent'] == "0.0") {
+    data[i]['color'] = colorMap[data[i]["id"]];
+  } else if (data[i]['id'] == "0.0") {
+    data[i]['color'] = '#ededed';
+  }
 }
 
 // Splice in transparent for the center circle
