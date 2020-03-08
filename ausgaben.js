@@ -352,11 +352,10 @@ for (var i = 0; i < parents.length; i++) {
   colorMap[parents[i]] = "#" + colorSeq[i];
 }
 for (var i = 0; i < data.length; i++) {
-  if (data[i]['parent'] == "0.0" || data[i]['parent'] == '') {
+  if (data[i]['parent'] == "0.0") {
     data[i]['color'] = colorMap[data[i]['id']];
-  }
-  else {
-    data[i]['color'] = colorMap[data[i]["parent"]];
+  } else if (data[i]['id'] == "0.0") {
+    data[i]['color'] = '#ededed';
   }
 }
 
