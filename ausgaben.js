@@ -1,3 +1,5 @@
+var subtitleAusgaben = 'der Fachschaft MathPhysInfo 2019'
+
 var dataAusgaben = [
 {
   'id': '0.0',

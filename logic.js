@@ -90,7 +90,7 @@ Highcharts.chart('ausgabencontainer', {
     text: 'Ausgaben'
   },
   subtitle: {
-    text: 'der Fachschaft MathPhysInfo 2019'
+    text: subtitleAusgaben
   },
   series: [{
     type: "sunburst",
@@ -150,7 +150,7 @@ Highcharts.chart('einnahmencontainer', {
     text: 'Einnahmen'
   },
   subtitle: {
-    text: 'der Fachschaft MathPhysInfo 2019'
+    text: subtitleEinnahmen
   },
   series: [{
     type: "sunburst",

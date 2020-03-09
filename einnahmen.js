@@ -1,4 +1,6 @@
-﻿var dataEinnahmen = [{
+﻿var subtitleEinnahmen = 'der Fachschaft MathPhysInfo 2019'
+
+var dataEinnahmen = [{
   'id': '0.0',
   'parent': '',
   'title': 'Einnahmen',
