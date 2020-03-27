@@ -6,6 +6,7 @@ var dataAusgaben = [
   'parent': '',
   'title': 'Ausgaben',
   'name': 'Ausgaben 2019',
+  'value': 38070.95,
   'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale Ebene der Verfassten Studierendenschaft zurück.<br>Die Unterposten im Diagramm kann man durch Anklicken auswählen.',
 },
   {
@@ -83,7 +84,7 @@ var dataAusgaben = [
       'title': 'Beamer',
       'name': 'Beamer',
       'text': '',
-      'value': 928.89,
+      'value': 928.99,
     },
     {
       'id': '0.2.2',
@@ -223,7 +224,7 @@ var dataAusgaben = [
       'title': 'KIF',
       'name': 'Konferenz der Informatikfachschaften',
       'text': '',
-      'value': 2095.10,
+      'value': 1095.10,
     },
   {
     'id': '0.7',
@@ -269,7 +270,7 @@ var dataAusgaben = [
       'title': 'Fachschaftswochenende',
       'name': 'Fachschaftswochenende',
       'text': '<p>Einmal im Semester organisiert die Fachschaft das Fachschaftswochende (FSWE):</p><p>Während des FSWE fahren aktive Fachschaftler*innen der SFSen Physik, Mathematik und Informatik gemeinsam in ein Landheim im Odenwald, um dort zusammen an größeren inhaltlichen Themen zu arbeiten, die Diskussionen zu führen, für die während derWoche und den zeitlich begrenzten Sitzungen keine Zeit bleibt und um langfristige Projekte voranzutreiben. Dazu finden im Lauf des Samstag mehrere Arbeitskreise statt und am Sonntag das Abschlussplenum, in dem die Ergebnisse der AKs vorgestellt und diskutiert werden. In einem Gremienplanspiel werden außerdem die neuen aktiven Fachschaftsmitglieder, die noch keine Gremienerfahrung haben, auf ihre zukünftigen Ämter vorbereitet. Es ist üblich, dass die Teilnehmenden, die nicht zum ersten Mal auf dem FSWE sind, eine Eigenbeteiligung von 10e entrichten, da die Teilnehmenden während des Wochenendes mit Essen, Snacks und Getränken versorgt werden.</p><p> Durch das FSWE ermöglicht die Fachschaft den Meinungsaustausch in der Gruppe der Studierenden und durch die auf dem FSWE erstellten Konzepte und durch die Ausbildung von Nachwuchs für universitäre Gremien werden langfristig die hochschulpolitischen Belange der Studierenden wahrgenommen.</p><p>Da auf dem FSWE der Fokus eindeutig auf inhaltlicher Arbeit, Fortbildung für Gremienarbeit und Stärkung des sozialen Zusammenhalts unter den aktiven Fachschaftsmitgliedern liegen soll, ist vorgesehen, dass nur aktive Fachschaftler (also meist solche, die ein Amt ausüben) und Einsteiger, die ein ernstzunehmendes Interesse daran haben, in Zukunft an der inhaltlichen Arbeit der Fachschaft teilzunehmen, am FSWE teilnehmen.</p>',
-      'value': 4366.29,
+      'value': 4566.29,
     },
     {
       'id': '0.8.1',
@@ -285,7 +286,7 @@ var dataAusgaben = [
       'title': 'Informatik Master',
       'name': 'Informatik Master Event',
       'text': '',
-      'value': 87.67,
+      'value': 78.67,
     },
     {
       'id': '0.8.3',
