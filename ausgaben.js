@@ -318,7 +318,15 @@ var dataAusgaben = [
       'title': 'MathPhysTheo',
       'name': 'MathPhysTheo',
       'text': '',
-      'value': 19806.96,
+      'value': 13678.96,
+    },
+    {
+      'id': '0.8.7',
+      'parent': '0.8',
+      'title': 'MathPhysTheo WiSe 18',
+      'name': 'MathPhysTheo WiSe 18',
+      'text': '',
+      'value': 6228.00,
     },
   {
     'id': '0.9',
