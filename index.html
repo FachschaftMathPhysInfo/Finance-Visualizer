@@ -38,42 +38,9 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script>
-        $('.top.menu .item').tab();
-
-        function change(tabnr) {
-            if (tabnr == 1) {
-                $('div').removeClass("active");
-                $('#allgemein').addClass("active");
-
-                $('a').removeClass("active");
-                $('#allgemeintab').addClass("active");
-
-                $('#chartcontainer').hide();
-            } else if (tabnr == 2) {
-                $('div').removeClass("active");
-                $('#einnahmen').addClass("active");
-
-                $('a').removeClass("active");
-                $('#einnahmentab').addClass("active");
-
-                $('#ausgabencontainer').hide();
-                $('#chartcontainer').show();
-                $('#einnahmencontainer').show();
-
-            } else if (tabnr == 3) {
-                $('div').removeClass("active");
-                $('#ausgaben').addClass("active");
-
-                $('a').removeClass("active");
-                $('#ausgabentab').addClass("active");
-
-                $('#einnahmencontainer').hide();
-                $('#chartcontainer').show();
-                $('#ausgabencontainer').show();
-            }
-        }
-    </script>
+    <script src="changetab.js"></script>
+    <script src="einnahmen.js"></script>
+    <script src="ausgaben.js"></script>
 </head>
 
 <body>
@@ -85,7 +52,7 @@
 
                 <div id="headertext" class="eight wide column">
                     <h1>Fachschaftshaushalt</h1>
-                    <h3>der Fachschaft MathPhysInfo 2018</h3>
+                    <h3>der Fachschaft MathPhysInfo 2019</h3>
                 </div>
 
                 <div id="headerimage" class="eight wide column">
@@ -123,29 +90,22 @@
                 <p>
                     Die einzelnen Finanzbeschlüsse kann man den Protokollen auf unserer <a
                         href="https://www.mathphys.stura.uni-heidelberg.de" target="_blank">Website</a> entnehmen und
-                    finden auf der Grundlage unseres <a href="Haushaltsplan2018.pdf" target="_blank">Haushaltsplans</a>
+                    finden auf der Grundlage unseres <a href="Haushaltsplan2019.pdf" target="_blank">Haushaltsplans</a>
                     statt.
                 </p>
 
             </div>
 
             <div id="einnahmen" data-tab="einnahmen" class="ui bottom attached tab segment">
-                <h2 id="einnahmenname">Einnahmen 2018</h2>
-                <p id="einnahmentext">Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere
-                    Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle
-                    Studierenden an die Verfasste Studierendenschaft zahlen, aber
-                    auch die anderen Quellen sind in dieser Grafik aufgeführt.<br>
-                    Die Unterposten im Diagramm kann man durch Anklicken auswählen.</p>
-                <p id="einnahmenvalue">Betrag: 62.568,44 €</p>
+                <h2 id="einnahmenname"></h2>
+                <p id="einnahmentext"></p>
+                <p id="einnahmenvalue"></p>
             </div>
 
             <div id="ausgaben" data-tab="ausgaben" class="ui bottom attached tab segment">
-                <h2 id="ausgabenname">Ausgaben 2018</h2>
-                <p id="ausgabentext">Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben
-                    nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale
-                    Ebene der Verfassten Studierendenschaft zurück.<br>
-                    Die Unterposten im Diagramm kann man durch Anklicken auswählen.</p>
-                <p id="ausgabenvalue">Betrag: 62.568,44 €</p>
+                <h2 id="ausgabenname"></h2>
+                <p id="ausgabentext"></p>
+                <p id="ausgabenvalue"></p>
             </div>
 
         </div>
@@ -157,9 +117,7 @@
             </div>
         </div>
     </div>
-
-    <script src="einnahmen.js"></script>
-    <script src="ausgaben.js"></script>
+    <script src="logic.js"></script>
 </body>
 
 </html>
