@@ -21,7 +21,7 @@ var dataAusgaben = [
       'parent': '0.11',
       'title': 'Theoretikumsschränke',
       'name': 'Theoretikumsschränke',
-      'text': '',
+      'text': 'Die Fachschaft MathPhysInfo hat im Lauf der letzten Jahrzehnte ein umfangreiches Inventar an Ausrüstung, Unterlagen Veranstaltungsmaterial, Geschirr, Verbrauchsgegenständen und vielem anderen angesammelt, das das Volumen unseres Fachschaftsraumes bei Weitem übersteigt. Weil dieses Material allerdings benötigt wird, um zahlreiche Veranstaltungen im Laufe des Jahres durchzuführen wie z.B. den Vorkurs, die AnfiFete, das Fachschaftswochenende, die diversen Vollversammlungen und kleinere Aktionen im normalen Tagesgeschäft, will die Fachschaft dieses Material auch weiterhin behalten und muss es deshalb einlagern. Zu diesem Zweck mietet die Fachschaft im Keller des Theoretikums Schränke an.',
       'value': 1309.71,
     },
     {
@@ -315,9 +315,9 @@ var dataAusgaben = [
     {
       'id': '0.8.6',
       'parent': '0.8',
-      'title': 'MathPhysTheo',
-      'name': 'MathPhysTheo',
-      'text': '',
+      'title': 'MathPhysTheo SoSe 19',
+      'name': 'MathPhysTheo SoSe 19',
+      'text': 'Seit mehr als 20 Jahren findet die Studierendenfeier MathPhysTheo statt. Die Veranstaltung gilt als unter Studierenden etabliertes soziales Ereignis zu Beginn der Vorlesungszeit. Im Rahmen der MathPhysTheo fallen zahlreiche Kosten für die zu verkaufenden Getränke, Musik, die Überlassung der Mensa, Sanitäter, Feuerwehr und vieles anderes an. Diese  Kosten werden unter diesem Posten verbucht. <p> Die Einnahmen der MathPhysTheo sind im Einnahmentab unter „MathPhysTheo SoSe 19“ aufgeführt.',
       'value': 13678.96,
     },
     {
@@ -325,7 +325,7 @@ var dataAusgaben = [
       'parent': '0.8',
       'title': 'MathPhysTheo WiSe 18',
       'name': 'MathPhysTheo WiSe 18',
-      'text': '',
+      'text': 'Für einige noch ausstehende Rechnung, die aufgrund von Problemen bei der Rechnungsstellung noch nicht in 2018 bezahlt werden konnten, wurde Ende des Jahres eine zweckgebundene Rücklage in Höhe von 6.00,00€ angelegt.  <p>  Unter diesem Posten sind die im Jahr 2019 getätigten Ausgaben für die MathPhysTheo im WiSe 18/19 aufgeführt.',
       'value': 6228.00,
     },
   {
@@ -346,15 +346,15 @@ var dataAusgaben = [
   {
      'id': '0.10',
      'parent': '0.0',
-     'title': 'Durchlaufposten Schlüsselpfand',
-     'name': 'Durchlaufposten Schlüsselpfand',
+     'title': 'Durchlaufposten',
+     'name': 'Durchlaufposten',
      'text': '',
   },
     {
       'id': '0.10.0',
       'parent': '0.10',
-      'title': 'Schlüsselpfand',
-      'name': 'Schlüsselpfand',
+      'title': 'Durchlaufposten Schlüsselpfand',
+      'name': 'Durchlaufposten Schlüsselpfand',
       'text': '',
       'value': 1175.00,
     },

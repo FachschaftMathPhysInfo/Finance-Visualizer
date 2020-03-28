@@ -44,7 +44,7 @@ var dataEinnahmen = [{
   'parent': '0.0',
   'title': 'MathPhysTheo SoSe 19',
   'name': 'MathPhysTheo SoSe 19',
-  'text': 'Unter diesem Posten wurden die Einnahmen der MathPhysTheo im Sommersemester 19 verbucht. Die Ausgaben der  MathPhysTheo sint unter „MathPhysTheo SoSe 19“ aufgeführt.',
+  'text': 'Die Einnahmen der MathPhysTheo fließen dem Haushalt unter diesem Posten zu. Es ist vorgesehen, dass die MathPhysTheo ihre eigenen Kosten deckt, es ist nicht vorgesehen langfristig (also über mehrere Semester hinweg) einen Gewinn zu erwirtschaften. Damit soll sichergestellt werden, dass die MathPhysTheo als kutlurelle Veranstaltung für so viele Studis unserer Fächer wie möglich zugänglich und attraktiv bleibt, unabhängig von sozialen und finanziellen Verhältnissen. <p> Die Ausgaben der  MathPhysTheo sind im Ausgabentab unter „MathPhysTheo SoSe 19“ aufgeführt.',
   'value': 6868.00,
 }, {
   'id': '1.7',
