@@ -61,23 +61,27 @@ Highcharts.setOptions({
 makeColor(dataEinnahmen, displaytextEinnahmen)
 makeColor(dataAusgaben, displaytextAusgaben)
 
+sumEinnahmen = 0
 for (var i = 0; i < dataEinnahmen.length; i++) {
   if (dataEinnahmen[i]['id'] == "0.0") {
     $('#einnahmenname').text(dataEinnahmen[i]['name']);
-    $('#einnahmenvalue').text('Betrag: ' + Number(dataEinnahmen[i]['value']).toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
     $('#einnahmentext').html(dataEinnahmen[i]['text']);
-    break;
+  } else {
+    sumEinnahmen += Number(dataEinnahmen[i]['value']);
   }
 }
+$('#einnahmenvalue').text('Betrag: ' + sumEinnahmen.toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
 
+sumAusgaben = 0
 for (var i = 0; i < dataAusgaben.length; i++) {
   if (dataAusgaben[i]['id'] == "0.0") {
     $('#ausgabenname').text(dataAusgaben[i]['name']);
-    $('#ausgabenvalue').text('Betrag: ' + Number(dataAusgaben[i]['value']).toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
     $('#ausgabentext').html(dataAusgaben[i]['text']);
-    break;
+  } else if (dataAusgaben[i]['parent'] != "0.0") {
+    sumAusgaben += Number(dataAusgaben[i]['value']);
   }
 }
+$('#ausgabenvalue').text('Betrag: ' + sumAusgaben.toLocaleString("de-DE", {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' €');
 
 // Splice in transparent for the center circle
 Highcharts.getOptions().colors.splice(0, 0, 'transparent');

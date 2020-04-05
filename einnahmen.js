@@ -6,7 +6,6 @@ var dataEinnahmen = [{
   'title': 'Einnahmen',
   'name': 'Einnahmen 2019',
   'text': 'Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle Studierenden an die Verfasste Studierendenschaft zahlen, aber auch die anderen Quellen sind in dieser Grafik aufgeführt.<br>Die Unterposten im Diagramm kann man durch Anklicken auswählen.',
-  'value': 38070.95,
 }, {
   'id': '1.1',
   'parent': '0.0',
