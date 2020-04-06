@@ -2,30 +2,30 @@ var subtitleAusgaben = 'der Fachschaft MathPhysInfo 2019'
 
 var dataAusgaben = [
 {
-  'id': '0.0',
+  'id': '0',
   'parent': '',
   'title': 'Ausgaben',
   'name': 'Ausgaben 2019',
   'text': 'Damit die Fachschaft ihren Aufgaben nachkommen kann, sind verschiedene Ausgaben nötig. Die Mittel, die zum Ende des Haushaltsjahres nicht verausgabt wurden, fließen an die zentrale Ebene der Verfassten Studierendenschaft zurück.<br>Die Unterposten im Diagramm kann man durch Anklicken auswählen.',
 },
   {
-    'id': '0.11',
-    'parent': '0.0',
+    'id': '0.0',
+    'parent': '0',
     'title': 'Büroausstattung',
     'name': 'Büroausstattung',
     'text': 'Um Verwaltungsarbeiten, die im Rahmen der Fachschaftsarbeit anfallen (z.B. Verwaltung der Finanzen), sachgemäß durchführen zu können, muss regelmäßig Büromaterial nachbeschafft werden. Dazu hat die Fachschaft einen Kundenaccount bei Büro Mix, über den unter den Bedinungen des Rahmenvertrages zwischen der Universität und Büro Mix das benötigte Büromaterial zu günstigen Preisen beschafft werden kann.',
   },
     {
-      'id': '0.11.0',
-      'parent': '0.11',
+      'id': '0.0.0',
+      'parent': '0.0',
       'title': 'Theoretikumsschränke',
       'name': 'Theoretikumsschränke',
       'text': 'Die Fachschaft MathPhysInfo hat im Lauf der letzten Jahrzehnte ein umfangreiches Inventar an Ausrüstung, Unterlagen Veranstaltungsmaterial, Geschirr, Verbrauchsgegenständen und vielem anderen angesammelt, das das Volumen unseres Fachschaftsraumes bei Weitem übersteigt. Weil dieses Material allerdings benötigt wird, um zahlreiche Veranstaltungen im Laufe des Jahres durchzuführen wie z.B. den Vorkurs, die AnfiFete, das Fachschaftswochenende, die diversen Vollversammlungen und kleinere Aktionen im normalen Tagesgeschäft, will die Fachschaft dieses Material auch weiterhin behalten und muss es deshalb einlagern. Zu diesem Zweck mietet die Fachschaft im Keller des Theoretikums Schränke an.',
       'value': 1309.71,
     },
     {
-      'id': '0.11.1',
-      'parent': '0.11',
+      'id': '0.0.1',
+      'parent': '0.0',
       'title': 'Theoretikumskarten',
       'name': 'Theoretikumskarten',
       'text': '',
@@ -33,7 +33,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.1',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Sonstiges, weitere Austattung',
     'name': 'Sonstiges, weitere Ausstattung',
     'text': 'Um Verwaltungsarbeiten, die im Rahmen der Fachschaftsarbeit anfallen (z.B. Verwaltung der Finanzen), sachgemäß durchführen zu können, muss regelmäßig Büromaterial nachbeschafft werden. Dazu hat die Fachschaft einen Kundenaccount bei Büro Mix, über den unter den Bedinungen des Rahmenvertrages zwischen der Universität und Büro Mix das benötigte Büromaterial zu günstigen Preisen beschafft werden kann.',
@@ -64,7 +64,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.2',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'EDV',
     'name': 'EDV',
     'text': '',
@@ -111,7 +111,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.3',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Druck- und Kopierkosten',
     'name': 'Druck- und Kopierkosten',
     'text': '<p>Die Fachschaft betreibt in ihrem Büro einen eigenen Drucker, um alltäglich anfallende Dokumente und Unterlagen bei Bedarf schnell und unkompliziert drucken zu können. Um diesen Drucker in Betrieb zu halten, müssen regelmäßg Papier und Toner beschafft werden.</p><p> Für Veranstaltungen muss der Druck von Plakaten, Flyern und ähnlichem meist extern in Auftrag gegeben werden.</p>',
@@ -134,7 +134,7 @@ var dataAusgaben = [
     },
  {
     'id': '0.4',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Stadtmobil',
     'name': 'Transportkosten (Stadtmobil)',
     'text': 'Die VS hat bei dem Carsharing-Dienst Stadtmobil ein Kundenkonto, über das PKW bis zur Größe von Kastenwägen ausgeliehen werden können. Mit diesen Fahrzeugen können Einkäufe für größere Veranstaltungen (z.B. die Vollversammlungen) erledigt werden und auch die Reise zu Bundesfachschaftentagungen und anderen Konferenzen außerhalb Heidelbergs durchgeführt werden, da dies in manchen Situation günstiger ist als mit der Bahn oder anderen Alternativen zu reisen.',
@@ -149,7 +149,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.5',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Bewirtung',
     'name': 'Bewirtungskosten',
     'text': '<p>Im Lauf des Haushaltsjahres richtet die Fachschaft meist auch eine Reihe kleinerer Veranstaltungen wie beispielsweise Berufsinformationsveranstaltungen (meist als “Wissenschaftler im Beruf” betitelt) oder Treffen, bei denen sich Tutor*innen über die Erfahrungen in ihren Übungsgruppen austauschen können. Da viele dieser Veranstaltungen nach Ende der meisten Lehrveranstaltungen um 18:00 beginnen und bis in den späten Abend gehen, ist es oft angemessen für die Teilnehmer Verpflegung bereitzustellen, damit diese nicht gezwungen sind, eine Veranstaltung vorzeitig zu verlassen, um zu Abend zu essen.</p><p>Weiterhin finden jedes Semester einige Gremiensitzungen der Fachschaft und Arbeitstreffen statt, die so lange dauern, dass eine Verpflegung notwendig ist, um die Arbeit sinnvoll zu Ende führen zu können. Ein Beispiel hierfür wäre das Abtippen der Lehrevaluation in der Physik, wofür mehrere Fachschaftler meist von Samstagvormittag bis in den frühen Abend brauchen, weshalb die Fachschaft in den vergangen Jahren für eine Bewirtung zu Mittag gesorgt hat</p>',
@@ -172,7 +172,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.6',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Reise- und<br>Teilnahme',
     'name': 'Reise- und Teilnahmekosten',
     'text': 'Aktive Mitglieder der Fachschaften nehmen im Laufe des Jahres an verschiedenen Tagungen und Konferenzen außerhalb Heidelbergs teil, wobei Reise- und Teilnahmekosten anfallen. Eine repräsentative aber nicht zwangsläufig vollständige Auswahl dieser Veranstaltungen findet sich im Folgenden:<ul><li>Bundesfachschaftentagungen und Konferenzen von Verbänden, die unter Posten 45 aufgeführt sind. Die Teilnahme an diesen Tagungen bringt für die Fachschaft die folgenden Vorteile: <ul> <li> Die fachlichen oder hochschulpolitischen Interessen der Studierenden können auch auf einer überregionalen Ebene vertreten werden. Dies ist insbesondere interessant bei Themen mit einer überregionalen Dimension (z.B. Gesetzesnovellen auf Bundes- oder Landesebene) oder bei Themen, für die andere überregionale Gremien (wie z.B. die Hochschulrektorenkonferenz) Rahmenordnungen o.ä. erstellen, die bei der Umsetzung eines Sachverhaltes auf Ebene der Fakultäten oft eine sehr wichtige Rolle spielen. </li><li> Überregionalen Studierendenbeziehungen können so sehr günstig und nachhaltig etabliert und gepflegt werden. Der Austausch mit Studierndenvertretern anderer Universitäten und deren Erfahrungen vereinfacht Gremienvertretern der Fachschaft die Arbeit in Gremien in Heidelberg oft erheblich und eröffnet neue Perspektiven auf Probleme, die an anderen Universitäten eventuell bereits gelöst wurden.</li><li> Die Pflege der Mitgliedschaft in den Verbänden, die unter Posten 45 aufgeführt werden.</ul></li><li>Studentische Akkreditierungsseminare und Poolvernetzungstreffen (PVT). Auf sutdentischen Akkreditierungsseminaren werden Teilnehmenden die Grundlagen von Programmakkreditierung vermittelt, sodass sie im Anschluss qualifiziert sind als studentische Gutachter an Akkreditierungsverfahren teilzunehmen. Die bei der Schulung und bei Akkreditierungsverfahren an anderen Universitäten gesammelten Erfahrungen kommen den Gremienvertretern auch bei ihrer Arbeit in den Gremien der Universität zugute, sodass die Fortbildung im Interesse der Fachschaft ist. Weiterhin nimmt die Fachschaft nach §65 LHG BaWü an den Aufgaben der Hochschule nach §§2 bis 5 teil, worunter Qualitätssicherung an den Hochschulen zählt und somit Akkreditierung. Auf den PVT treffen sich Vertreter des studentischen Akkrediterungspools, um aktuelle Entwicklungen und veränderte Regelungen im Akkreditierungswesen zu diskutieren und zu ihnen Stellung zu beziehen. Das bietet die Gelegenheit das Akkreditierungswesen gemäß der Interessen der Heidelberger Studierenden weiterzuentwickeln.</li><li>Außerdem bietet sich Finanzverantwortlichen und anderen Amtsträgern unregelmäßig die Möglichkeit, an Schulungen teilzunehmen, die ihnen jurisitsche und formale Grundlagen ihrer Aufgaben vermitteln, die für Studierende, die ihre Tätigkeit ehrenamtlich ausüben, oft nur schwer zu durchschauen sind. Für die ordnungsgemäße Verwaltung der Angelegenheit ist es allerdings unerläßlich, dass diese Amtsträger adäquat auf ihre Aufgaben vorbereitet und über diese informiert sind.</li>',
@@ -219,7 +219,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.7',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Mitgliedsbeiträge',
     'name': 'Mitgliedsbeiträge',
     'text': '<p>Unsere SFSen sind Mitglied in verschiedenen Verbänden und Dachorganisationen; derzeit sind das die "Deutsche Mathematiker Vereinigung" (DMV), "Zusammenkunft aller Physikfachschaften e.V." (ZaPF e.V.), "Konferenz der Mathematikfachschaften e.V." (KoMa e.V.) und "Konferenz der Informatik Fachschaften e.V." (KIF e.V.).</p><p>In diesen Verbänden sind die SFSen Mitglied, weil sie sich mit Themen der Lehre in den jeweiligen Fächern auseinandersetzen und auf eine Weiterentwicklung dieser im Sinne der Studierenden hinarbeiten. Die Mitgliedschaft unterstützt diese Verbände dabei, ihre Tätigkeit auch langfristig fortsetzen zu können und ermöglicht es Mitgliedern der Fachschaften an Tagungen und Konferenzen der Verbände teilzunehmen und dort die Interessen der Heidelberger Studierenden zu vertreten.</p>',
@@ -250,7 +250,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.8',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Veranstaltungen und Projekte',
     'name': 'Veranstaltungen und Projekte',
     'text': '',
@@ -321,7 +321,7 @@ var dataAusgaben = [
     },
   {
     'id': '0.9',
-    'parent': '0.0',
+    'parent': '0',
     'title': 'Abfluss an die VS, Rücklagen',
     'name': 'Abfluss an die VS, zweckgebundene Rücklagen',
     'text': '<p><ul><li>Zweckgebundene Rücklagen: Diese kann die Fachschaft im nächsten Haushaltsjahr zweckgebunden ausgeben</li><li>Abfluss an die VS: Nicht verwendete Mittel fließen an die zentrale Ebene der VS ab.</li></ul></p>',
@@ -336,7 +336,7 @@ var dataAusgaben = [
     },
   {
      'id': '0.10',
-     'parent': '0.0',
+     'parent': '0',
      'title': 'Durchlaufposten',
      'name': 'Durchlaufposten',
      'text': '',
