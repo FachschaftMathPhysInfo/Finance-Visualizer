@@ -79,14 +79,6 @@ tspan {
     position: absolute;
 }
 
-#einnahmencontainer {
-    display: none;
-}
-
-#ausgabencontainer {
-    display: none;
-}
-
 #screen {
     padding: 20px;
 }
