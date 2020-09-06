@@ -9,7 +9,7 @@
     <script src="https://code.highcharts.com/modules/sunburst.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/drilldown.js"></script>
-    <script src="palette.js"></script>
+    <script src="js/lib/palette.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -31,10 +31,6 @@
     <meta name="msapplication-TileImage" content="logos/logo-300x300.png" />
 
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="changetab.js"></script>
-    <script src="einnahmen.js"></script>
-    <script src="ausgaben.js"></script>
 </head>
 
 <body>
@@ -46,7 +42,10 @@
 
                 <div id="headertext" class="eight wide column">
                     <h1>Fachschaftshaushalt</h1>
-                    <h3>der Fachschaft MathPhysInfo 2019</h3>
+                    <h3><span class="subtitle">der Fachschaft MathPhysInfo</span>
+                        <select class="year-switcher">
+                        </select>
+                    </h3>
                 </div>
 
                 <div id="headerimage" class="eight wide column">
@@ -84,7 +83,7 @@
                 <p>
                     Die einzelnen Finanzbeschlüsse kann man den Protokollen auf unserer <a
                         href="https://www.mathphys.stura.uni-heidelberg.de" target="_blank">Website</a> entnehmen und
-                    finden auf der Grundlage unseres <a href="Haushaltsplan2019.pdf" target="_blank">Haushaltsplans</a>
+                    finden auf der Grundlage unseres <a id="haushaltsplan-link" target="_blank">Haushaltsplans</a>
                     statt.
                 </p>
 
@@ -110,7 +109,7 @@
             </div>
         </div>
     </div>
-    <script src="logic.js"></script>
+    <script type="module" src="js/application.js"></script>
 </body>
 
 </html>
