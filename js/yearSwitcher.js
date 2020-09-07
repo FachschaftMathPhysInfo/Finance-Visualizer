@@ -1,23 +1,20 @@
 import { years as knownYears } from "./balanceSheets.js"
 
+/**
+ * Functions to access the hash part of the url (i.e. #2019 in the url https://example.com/#2019)
+ */
 let hash = {
   /**
    * Extract the selected year from the hash. If the hash can't be interpreted
    * as an int, null is returned. Otherwise, the year is returned as int.
    * 
    * Note that this doesn't check whether we actually have data on this year.
-   * 
    * @return {int}
    */
   getYear: function () {
     // Remove leading # from window.location.hash
     return parseIntOrNull(window.location.hash.substring(1));
   },
-
-  /**
-   * Set the year in the hash
-   * @param {int} year
-   */
   setYear: function (year) {
     window.location.hash = year;
   },
@@ -31,6 +28,9 @@ let hash = {
   }
 }
 
+/**
+ * Functions to access the dropdown on the UI
+ */
 let dropdown = {
   element: $(".year-switcher"),
   getYear: function () {
@@ -70,10 +70,25 @@ function parseIntOrNull(str) {
   }
 }
 
+/**
+ * The currently selected year. Used by other components of this program
+ * (accessed via setActiveYear and getActiveYear) to display the data for
+ * the selected year.
+ */
 let activeYear = null;
+
+/**
+ * This function is notified whenever the active year changes.
+ * It is notified only on actual changes, i.e.
+ * setActiveYear(2018) will call the handler if and only if
+ * 2018 wasn't the active year before.
+ */
 let activeYearChangeHandler = null;
   
 export function setActiveYear(year) {
+  // If we don't know this year, use the last one in the list
+  // (should be the latest year we have data on, because we asked
+  // the user to specify the data in an ordered way)
   if(!knownYears.includes(year)) {
     year = knownYears[knownYears.length-1];
   }
@@ -88,6 +103,9 @@ export function setActiveYear(year) {
   }
 }
 
+/**
+ * Sets the handler for year changes
+ */
 export function onActiveYearChange(handler) {
   activeYearChangeHandler = handler;
 }
