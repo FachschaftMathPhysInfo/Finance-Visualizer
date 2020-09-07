@@ -1,17 +1,28 @@
-function displaytextAusgaben(event) {
-  $('#ausgabenname').text(this.name);
-  $('#ausgabenvalue').text('Betrag: ' + toGermanAmount(this.value) + ' €');
-  $('#ausgabentext').html(this.text);
+/**
+ * Show an entry of balanceSheet.ausgaben (i.e. make the name, the description text and the value
+ * appear on the UI) on the "Ausgaben" tab
+ */
+function displayAusgabenEntry(entry) {
+  $('#ausgabenname').text(entry.name);
+  $('#ausgabenvalue').text('Betrag: ' + toGermanCurrencyAmount(entry.value));
+  $('#ausgabentext').html(entry.text);
 }
 
-function displaytextEinnahmen(event) {
-  $('#einnahmenname').text(this.name);
-  $('#einnahmenvalue').text('Betrag: ' + toGermanAmount(this.value)+ ' €' );
-  $('#einnahmentext').html(this.text);
+/**
+ * Show an entry of balanceSheet.einnahmen on the "Einnahmen tab"
+ */
+function displayEinnahmenEntry(entry) {
+  $('#einnahmenname').text(entry.name);
+  $('#einnahmenvalue').text('Betrag: ' + toGermanCurrencyAmount(entry.value));
+  $('#einnahmentext').html(entry.text);
 }
 
-function toGermanAmount(value) {
-  return Number(value).toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+/**
+ * Format a number as a german amount of currency,
+ * e.g. 6868.1 is formatted to "6.868,10 €"
+ */
+function toGermanCurrencyAmount(value) {
+  return Number(value).toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
 }
 
 function makeColor(data, displaytext) {
@@ -38,36 +49,44 @@ function makeColor(data, displaytext) {
   }
 }
 
-
 export function show(balanceSheet) {
-  makeColor(balanceSheet.einnahmen, displaytextEinnahmen)
-  makeColor(balanceSheet.ausgaben, displaytextAusgaben)
+  makeColor(balanceSheet.einnahmen, function() { displayEinnahmenEntry(this) })
+  makeColor(balanceSheet.ausgaben, function() { displayAusgabenEntry(this) })
 
+  // Calculate the sum of all incomes and set it as value of the
+  // root entry in einnahmen
   let sumEinnahmen  = 0;
   let einnahmenRoot = null;
   for(let entry of balanceSheet.einnahmen) {
     if (entry.id == "0") {
       einnahmenRoot = entry;
     } else {
-      sumEinnahmen += Number(entry.value);
+      let entryValue = Number(entry.value);
+      if(!isNaN(entryValue)) {
+        sumEinnahmen += entryValue;
+      }
     }
   }
-
   einnahmenRoot.value = sumEinnahmen;
-  displaytextEinnahmen.bind(einnahmenRoot)();
+  // Initially, display the root entry
+  displayEinnahmenEntry(einnahmenRoot);
 
+  // Calculate the some of all outgoing transactions and set it as value of the
+  // root entry in ausgaben
   let sumAusgaben  = 0;
   let ausgabenRoot = null;
   for (let entry of balanceSheet.ausgaben) {
     if (entry.id == "0") {
       ausgabenRoot = entry;
-    } else if (entry.parent != "0") {
-      sumAusgaben += Number(entry.value);
+    } else {
+      let entryValue = Number(entry.value);
+      if(!isNaN(entryValue)) {
+        sumAusgaben += entryValue;
+      }
     }
   }
-
   ausgabenRoot.value = sumAusgaben;
-  displaytextAusgaben.bind(ausgabenRoot)();
+  displayAusgabenEntry(ausgabenRoot);
 
   // Splice in transparent for the center circle
   Highcharts.getOptions().colors.splice(0, 0, 'transparent');
@@ -182,6 +201,11 @@ export function show(balanceSheet) {
   });
 }
 
+/**
+ * Set the link to Haushaltsplan.pdf on the "Allgemein" tab
+ * to point to the file for the given year
+ * @param {int} year 
+ */
 export function setHaushaltsplanLink(year) {
   $("#haushaltsplan-link").attr("href", "/data/"+year+"/Haushaltsplan.pdf");
 }
