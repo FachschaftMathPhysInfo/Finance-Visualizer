@@ -66,3 +66,4 @@ Wichtig: Auch zur Entwicklungszeit wird ein (temporärer) Webserver benötigt, d
 Möglichkeiten, um einen temporären Webserver zu starten:
 
 * [Pythons `http.server`-Modul](https://docs.python.org/3/library/http.server.html) (weiter unten auf der verlinkten Website befindet sich der Befehl zum direkten Starten des Servers auf der Kommandozeile)
+* [npm `static-server` Modul](https://www.npmjs.com/package/static-server#getting-started) (einfach global installieren und dann im gewünschten Verzeichnis, also auf der Ebene der `index.html` den Befehl `static-server` ausführen)
