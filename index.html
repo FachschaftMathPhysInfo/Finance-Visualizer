@@ -9,7 +9,7 @@
     <script src="https://code.highcharts.com/modules/sunburst.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/drilldown.js"></script>
-    <script src="palette.js"></script>
+    <script src="js/lib/palette.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -31,10 +31,6 @@
     <meta name="msapplication-TileImage" content="logos/logo-300x300.png" />
 
     <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="changetab.js"></script>
-    <script src="einnahmen.js"></script>
-    <script src="ausgaben.js"></script>
 </head>
 
 <body>
@@ -45,8 +41,9 @@
             <div class="ui grid">
 
                 <div id="headertext" class="eight wide column">
-                    <h1>Fachschaftshaushalt</h1>
-                    <h3>der Fachschaft MathPhysInfo 2019</h3>
+                    <h1>Fachschaftshaushalt <select class="year-switcher"></select></h1>
+                    <h3><span class="subtitle">der Fachschaft MathPhysInfo</span>
+                    </h3>
                 </div>
 
                 <div id="headerimage" class="eight wide column">
@@ -84,22 +81,22 @@
                 <p>
                     Die einzelnen Finanzbeschlüsse kann man den Protokollen auf unserer <a
                         href="https://www.mathphys.stura.uni-heidelberg.de" target="_blank">Website</a> entnehmen und
-                    finden auf der Grundlage unseres <a href="Haushaltsplan2019.pdf" target="_blank">Haushaltsplans</a>
+                    finden auf der Grundlage unseres <a id="haushaltsplan-link" target="_blank">Haushaltsplans</a>
                     statt.
                 </p>
 
             </div>
 
             <div id="einnahmen" data-tab="einnahmen" class="ui bottom attached tab segment">
-                <h2 id="einnahmenname"></h2>
-                <p id="einnahmentext"></p>
-                <p id="einnahmenvalue"></p>
+                <h2 id="einnahmenname" class="name"></h2>
+                <p id="einnahmentext" class="text"></p>
+                <p id="einnahmenvalue" class="value"></p>
             </div>
 
             <div id="ausgaben" data-tab="ausgaben" class="ui bottom attached tab segment">
-                <h2 id="ausgabenname"></h2>
-                <p id="ausgabentext"></p>
-                <p id="ausgabenvalue"></p>
+                <h2 id="ausgabenname" class="name"></h2>
+                <p id="ausgabentext" class="text"></p>
+                <p id="ausgabenvalue" class="value"></p>
             </div>
 
         </div>
@@ -110,7 +107,7 @@
             </div>
         </div>
     </div>
-    <script src="logic.js"></script>
+    <script type="module" src="js/application.js"></script>
 </body>
 
 </html>
