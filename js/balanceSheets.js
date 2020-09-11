@@ -40,8 +40,8 @@ export function get(year) {
       // We don't have the balance sheet cached, so we first have to load and store
       // it and can then return it
       Promise.all([
-        $.get("/data/"+year+"/ausgaben.json"),
-        $.get("/data/"+year+"/einnahmen.json")
+        $.get("data/"+year+"/ausgaben.json"),
+        $.get("data/"+year+"/einnahmen.json")
       ]).then(data=>{
         balanceSheets[year] = {
           ausgaben: data[0],
@@ -60,7 +60,7 @@ export function get(year) {
 export function loadYears() {
   return new Promise(
     (resolve, reject)=>{
-      $.get("/data/years.json", (yearList)=>{
+      $.get("data/years.json", (yearList)=>{
         years = yearList;
         resolve();
       }); 
