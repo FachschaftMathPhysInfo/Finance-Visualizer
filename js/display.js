@@ -49,6 +49,8 @@ function makeColor(data, displaytext) {
   }
 }
 
+export var einnahmenChart, ausgabenChart
+
 export function show(balanceSheet) {
   makeColor(balanceSheet.einnahmen, function() { displayEinnahmenEntry(this) })
   makeColor(balanceSheet.ausgaben, function() { displayAusgabenEntry(this) })
@@ -91,7 +93,7 @@ export function show(balanceSheet) {
   // Splice in transparent for the center circle
   Highcharts.getOptions().colors.splice(0, 0, 'transparent');
 
-  Highcharts.chart('ausgabencontainer', {
+  ausgabenChart = Highcharts.chart('ausgabencontainer', {
     chart: {
       height: '100%'
     },
@@ -148,7 +150,7 @@ export function show(balanceSheet) {
   // Splice in transparent for the center circle
   Highcharts.getOptions().colors.splice(0, 0, 'transparent');
 
-  Highcharts.chart('einnahmencontainer', {
+  einnahmenChart = Highcharts.chart('einnahmencontainer', {
 
     chart: {
       height: '100%'

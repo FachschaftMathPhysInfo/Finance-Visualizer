@@ -1,3 +1,5 @@
+import * as display from "./display.js"
+
 /**
  * Finds all tabs and their corresponding menu items.
  * Adds an onclick listener to the menu items so you
@@ -40,5 +42,11 @@ export function initialize() {
     newlySelectedItem.addClass("active");
     newlySelectedTab.addClass("active");
     newlySelectedContainer.show();
+
+    if (newlySelectedTabName == "einnahmen") {
+      display.einnahmenChart.reflow();
+    } else if (newlySelectedTabName == "ausgaben") {
+      display.ausgabenChart.reflow();
+    }
   });
 }
