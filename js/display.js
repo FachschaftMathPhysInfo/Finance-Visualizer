@@ -49,9 +49,7 @@ function makeColor(data, displaytext) {
   }
 }
 
-export var einnahmenChart, ausgabenChart
-
-export function show(balanceSheet) {
+export function prepareData(balanceSheet) {
   makeColor(balanceSheet.einnahmen, function() { displayEinnahmenEntry(this) })
   makeColor(balanceSheet.ausgaben, function() { displayAusgabenEntry(this) })
 
@@ -70,8 +68,6 @@ export function show(balanceSheet) {
     }
   }
   einnahmenRoot.value = sumEinnahmen;
-  // Initially, display the root entry
-  displayEinnahmenEntry(einnahmenRoot);
 
   // Calculate the some of all outgoing transactions and set it as value of the
   // root entry in ausgaben
@@ -88,10 +84,14 @@ export function show(balanceSheet) {
     }
   }
   ausgabenRoot.value = sumAusgaben;
-  displayAusgabenEntry(ausgabenRoot);
+}
 
-  // Splice in transparent for the center circle
-  Highcharts.getOptions().colors.splice(0, 0, 'transparent');
+export var einnahmenChart, ausgabenChart
+
+export function show(balanceSheet) {
+  // Initially, display the root entry
+  displayEinnahmenEntry(balanceSheet.einnahmen[0]);
+  displayAusgabenEntry(balanceSheet.ausgaben[0]);
 
   ausgabenChart = Highcharts.chart('ausgabencontainer', {
     chart: {
@@ -146,9 +146,6 @@ export function show(balanceSheet) {
       pointFormat: '<b>{point.name}</b>: <b>{point.value:,.2f} €</b>'
     }
   });
-
-  // Splice in transparent for the center circle
-  Highcharts.getOptions().colors.splice(0, 0, 'transparent');
 
   einnahmenChart = Highcharts.chart('einnahmencontainer', {
 
@@ -209,7 +206,7 @@ export function show(balanceSheet) {
  * @param {int} year 
  */
 export function setHaushaltsplanLink(year) {
-  $("#haushaltsplan-link").attr("href", "/data/"+year+"/Haushaltsplan.pdf");
+  $("#haushaltsplan-link").attr("href", "data/"+year+"/Haushaltsplan.pdf");
 }
 
 export function initialize() {

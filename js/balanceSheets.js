@@ -1,3 +1,5 @@
+import * as display from "./display.js"
+
 /**
  * List of integers: The years we know about. This list is filled
  * by loadYears() once at the start of the application and is then
@@ -47,6 +49,7 @@ export function get(year) {
           ausgaben: data[0],
           einnahmen: data[1]
         };
+        display.prepareData(balanceSheets[year])
         resolve(balanceSheets[year]);
       });
     }
