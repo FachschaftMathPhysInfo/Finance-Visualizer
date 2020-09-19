@@ -101,7 +101,7 @@ export function show(balanceSheet) {
       text: 'Ausgaben'
     },
     subtitle: {
-      text: $("#headertext .subtitle").text() + " " + $(".year-switcher").val() // Bit of an ugly hack, hopefully that's okay...
+      text: $("#headertext .subtitle").text() + " " + $("#year-switcher").dropdown('get value') // Bit of an ugly hack, hopefully that's okay...
     },
     series: [{
       type: "sunburst",
@@ -157,7 +157,7 @@ export function show(balanceSheet) {
       text: 'Einnahmen'
     },
     subtitle: {
-      text: $("#headertext .subtitle").text() + " " + $(".year-switcher").val() // Bit of an ugly hack, hopefully that's okay...
+      text: $("#headertext .subtitle").text() + " " + $("#year-switcher").dropdown('get value') // Bit of an ugly hack, hopefully that's okay...
     },
     series: [{
       type: "sunburst",
