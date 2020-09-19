@@ -10,7 +10,7 @@ export function initialize() {
 
   let tabs = $(".tab");
   let containers = $(".con");
-  let menuItems = $(".menu .item");
+  let menuItems = $(".tabular .item");
   // The container containing all chart containers
   let chartContainerContainer = $("#chartcontainer");
 

@@ -32,27 +32,31 @@ let hash = {
  * Functions to access the dropdown on the UI
  */
 let dropdown = {
-  element: $(".year-switcher"),
+  element: $("#year-switcher"),
   getYear: function () {
-    return parseIntOrNull(this.element.val());
+    return parseIntOrNull(this.element.dropdown('get value'));
   },
   setYear: function (year) {
-    this.element.val(year);
+    if(this.getYear() != year) {
+      this.element.dropdown('set selected', year);
+    }
   },
-  initializeYearList: function() {
+  initialize: function() {
     // Add one option for each year
     knownYears.forEach(year => {
-      let option = $("<option>");
+      let option = $("<div>");
       option.text(year);
-      this.element.append(option);
+      option.addClass("item")
+      $("#year-switcher-menu").append(option);
     });
+    this.element.dropdown();
   },
   /**
    * Sets the event handler executed when the dropdown value changes
    * @param {function} handler 
    */
   onchange: function (handler) {
-    this.element.on("change", handler);
+    this.element.dropdown('setting', 'onChange', handler);
   }
 }
 
@@ -115,7 +119,7 @@ export function getActiveYear() {
 }
   
 export function initialize() {
-  dropdown.initializeYearList();
+  dropdown.initialize();
   setActiveYear(hash.getYear());
   dropdown.onchange(()=>{
     setActiveYear(dropdown.getYear());

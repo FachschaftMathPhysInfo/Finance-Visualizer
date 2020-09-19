@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="de">
 
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fachschaftshaushalt MathPhysInfo</title>
@@ -10,13 +10,6 @@
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/drilldown.js"></script>
     <script src="js/lib/palette.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -31,83 +24,90 @@
     <meta name="msapplication-TileImage" content="logos/logo-300x300.png" />
 
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="two column stackable ui grid">
 
-        <div class="column">
+      <div class="column">
 
-            <div class="ui grid">
+        <div class="ui grid">
 
-                <div id="headertext" class="eight wide column">
-                    <h1>Fachschaftshaushalt <select class="year-switcher"></select></h1>
-                    <h3><span class="subtitle">der Fachschaft MathPhysInfo</span>
-                    </h3>
-                </div>
+          <div id="headertext" class="eight wide column">
+            <h1>
+              Fachschaftshaushalt
+              <div id="year-switcher" class="ui dropdown">
+                <div class="text"></div>
+                <i class="caret down icon"></i>
+                <div id="year-switcher-menu" class="menu"></div>
+              </div>
+            </h1>
+            <h3><span class="subtitle">der Fachschaft MathPhysInfo</span>
+            </h3>
+          </div>
 
-                <div id="headerimage" class="eight wide column">
-                    <a href="https://mathphys.stura.uni-heidelberg.de/w/">
-                        <img src="logos/logo.png">
-                    </a>
-                </div>
-            </div>
+          <div id="headerimage" class="eight wide column">
+            <a href="https://mathphys.stura.uni-heidelberg.de/w/">
+              <img src="logos/logo.png">
+            </a>
+          </div>
+        </div>
 
-            <div class="ui top attached tabular menu">
-                <a id="allgemeintab" class="item active" data-tab="allgemein">Allgemein</a>
-                <a id="einnahmentab" class="item" data-tab="einnahmen">Einnahmen</a>
-                <a id="ausgabentab" class="item" data-tab="ausgaben">Ausgaben</a>
-            </div>
+        <div class="ui top attached tabular menu">
+          <a id="allgemeintab" class="item active" data-tab="allgemein">Allgemein</a>
+          <a id="einnahmentab" class="item" data-tab="einnahmen">Einnahmen</a>
+          <a id="ausgabentab" class="item" data-tab="ausgaben">Ausgaben</a>
+        </div>
 
-            <div id="allgemein" data-tab="allgemein" class="ui bottom attached active tab segment">
-                <p>
-                    Auf dieser Seite stellen wir den Haushalt der Fachschaft MathPhysInfo vor, also den gemeinsam
-                    wirtschaftenden Studienfachschaften Mathematik, Physik und Informatik. Unter dem Tab „Einnahmen“
-                    sind alle unsere Einnahmequellen aufgeführt, unter dem Tab „Ausgaben“
-                    findet ihr die Ausgaben der Fachschaft.
-                </p>
-                <p>
-                    Die Einnahmen und Ausgaben sind jeweils in Unterposten verschiedener Ebenen unterteilt, welche man
-                    durch Anklicken auswählen kann. Eine Ebene nach oben kommt man, indem man den Button oben rechts
-                    anklickt.
-                </p>
-                <p>
-                    Diese visuelle Aufbereitung ist entstanden, weil es uns wichtig ist, dass die Studierenden sehen,
-                    was mit ihrem Geld passiert. Eine transparente und nachvollziehbare Verwendung von öffentlichen
-                    Finanzen sind uns ein großes Anliegen. Das Vergleichen von
-                    Finanzvolumen bei Beschlüssen aufgrund von Zahlen ist manchmal schwierig, nun aber durch die
-                    graphische Darstellung einfacher und schneller erkennbar.
-                </p>
-                <p>
-                    Die einzelnen Finanzbeschlüsse kann man den Protokollen auf unserer <a
-                        href="https://www.mathphys.stura.uni-heidelberg.de" target="_blank">Website</a> entnehmen und
-                    finden auf der Grundlage unseres <a id="haushaltsplan-link" target="_blank">Haushaltsplans</a>
-                    statt.
-                </p>
-
-            </div>
-
-            <div id="einnahmen" data-tab="einnahmen" class="ui bottom attached tab segment">
-                <h2 id="einnahmenname" class="name"></h2>
-                <p id="einnahmentext" class="text"></p>
-                <p id="einnahmenvalue" class="value"></p>
-            </div>
-
-            <div id="ausgaben" data-tab="ausgaben" class="ui bottom attached tab segment">
-                <h2 id="ausgabenname" class="name"></h2>
-                <p id="ausgabentext" class="text"></p>
-                <p id="ausgabenvalue" class="value"></p>
-            </div>
+        <div id="allgemein" data-tab="allgemein" class="ui bottom attached active tab segment">
+          <p>
+            Auf dieser Seite stellen wir den Haushalt der Fachschaft MathPhysInfo vor, also den gemeinsam
+            wirtschaftenden Studienfachschaften Mathematik, Physik und Informatik. Unter dem Tab „Einnahmen“
+            sind alle unsere Einnahmequellen aufgeführt, unter dem Tab „Ausgaben“
+            findet ihr die Ausgaben der Fachschaft.
+          </p>
+          <p>
+            Die Einnahmen und Ausgaben sind jeweils in Unterposten verschiedener Ebenen unterteilt, welche man
+            durch Anklicken auswählen kann. Eine Ebene nach oben kommt man, indem man den Button oben rechts
+            anklickt.
+          </p>
+          <p>
+            Diese visuelle Aufbereitung ist entstanden, weil es uns wichtig ist, dass die Studierenden sehen,
+            was mit ihrem Geld passiert. Eine transparente und nachvollziehbare Verwendung von öffentlichen
+            Finanzen sind uns ein großes Anliegen. Das Vergleichen von
+            Finanzvolumen bei Beschlüssen aufgrund von Zahlen ist manchmal schwierig, nun aber durch die
+            graphische Darstellung einfacher und schneller erkennbar.
+          </p>
+          <p>
+            Die einzelnen Finanzbeschlüsse kann man den Protokollen auf unserer <a
+              href="https://www.mathphys.stura.uni-heidelberg.de" target="_blank">Website</a> entnehmen und
+            finden auf der Grundlage unseres <a id="haushaltsplan-link" target="_blank">Haushaltsplans</a>
+            statt.
+          </p>
 
         </div>
-        <div class="column">
-            <div id="chartcontainer" hidden="true" class="ui segment">
-                <div class="con" id="einnahmencontainer"></div>
-                <div class="con" id="ausgabencontainer"></div>
-            </div>
+
+        <div id="einnahmen" data-tab="einnahmen" class="ui bottom attached tab segment">
+          <h2 id="einnahmenname" class="name"></h2>
+          <p id="einnahmentext" class="text"></p>
+          <p id="einnahmenvalue" class="value"></p>
         </div>
+
+        <div id="ausgaben" data-tab="ausgaben" class="ui bottom attached tab segment">
+          <h2 id="ausgabenname" class="name"></h2>
+          <p id="ausgabentext" class="text"></p>
+          <p id="ausgabenvalue" class="value"></p>
+        </div>
+
+      </div>
+      <div class="column">
+        <div id="chartcontainer" hidden="true" class="ui segment">
+          <div class="con" id="einnahmencontainer"></div>
+          <div class="con" id="ausgabencontainer"></div>
+        </div>
+      </div>
     </div>
     <script type="module" src="js/application.js"></script>
-</body>
+  </body>
 
 </html>
