@@ -144,6 +144,13 @@ export function show(balanceSheet) {
     tooltip: {
       headerFormat: "",
       pointFormat: '<b>{point.name}</b>: <b>{point.value:,.2f} €</b>'
+    },
+    plotOptions: {
+      sunburst: {
+        traverseUpButton: {
+          text: '< Zurück'
+        }
+      }
     }
   });
 
@@ -188,7 +195,6 @@ export function show(balanceSheet) {
         level: 2,
         colorByPoint: true,
         dataLabels: {
-
         }
       }]
 
@@ -196,6 +202,13 @@ export function show(balanceSheet) {
     tooltip: {
       headerFormat: "",
       pointFormat: '<b>{point.name}</b>: <b>{point.value:,.2f} €</b>'
+    },
+    plotOptions: {
+      sunburst: {
+        traverseUpButton: {
+          text: '< Zurück'
+        }
+      }
     }
   });
 }
