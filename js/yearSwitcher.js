@@ -16,7 +16,7 @@ let hash = {
     return parseIntOrNull(window.location.hash.substring(1));
   },
   setYear: function (year) {
-    window.location.hash = year;
+    window.location.replace("#"+year);
   },
 
   /**
