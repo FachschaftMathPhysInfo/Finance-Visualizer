@@ -73,5 +73,3 @@ Möglichkeiten, um einen temporären Webserver zu starten:
 Instanzen des Finance-Visualizers, von denen wir wissen. Fühlt euch frei, eure eigenen Instanzen über einen Pull Request der Liste hinzuzufügen:
 
 * [Fachschaftshaushalt MathPhysInfo](https://mathphys.stura.uni-heidelberg.de/finanzen/)
-* [Fachschaftshaushalt Computerlinguistik](https://finanzen.fachschaft.cl.uni-heidelberg.de/)
-
