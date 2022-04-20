@@ -65,7 +65,7 @@ Wichtig: Auch zur Entwicklungszeit wird ein (temporärer) Webserver benötigt, d
 
 Möglichkeiten, um einen temporären Webserver zu starten:
 
-* [Pythons `http.server`-Modul](https://docs.python.org/3/library/http.server.html) (Die meisten Betriebssysteme haben [Python3](https://python.org) vorinstalliert. Wenn  Python3 installiert ist lässt sich mittels folgendem Befehls ein temporärer Webserver starten: `python3 -m http.server --bind 127.0.0.1`.)
+* [Pythons `http.server`-Modul](https://docs.python.org/3/library/http.server.html) (Die meisten Betriebssysteme haben [Python3](https://python.org) vorinstalliert. Wenn  Python3 installiert ist lässt sich mittels folgenden Befehls ein temporärer Webserver starten: `python3 -m http.server --bind 127.0.0.1`.)
 * [npm `static-server` Modul](https://www.npmjs.com/package/static-server#getting-started) (einfach global installieren und dann im gewünschten Verzeichnis, also auf der Ebene der `index.html` den Befehl `static-server` ausführen)
 
 ## Aktive Instanzen
