@@ -14,15 +14,12 @@ function main() {
   // the year switcher mechanics (i.e. dropdown, window hash, change listeners)
   balanceSheets.loadYears()
     .then(() => yearSwitcher.initialize())
-    .then(() => display.setHaushaltsplanLink(yearSwitcher.getActiveYear()));
 
   // This change listener plugs all components together:
   // When a new year is selected, the corresponding balance sheet is loaded
   // (this might or might not require fetching the data from the internet),
   // and the sheet is displayed
   yearSwitcher.onActiveYearChange(() => {
-    display.setHaushaltsplanLink(yearSwitcher.getActiveYear());
-
     balanceSheets.get(yearSwitcher.getActiveYear())
       .then(sheet => display.show(sheet));
   });

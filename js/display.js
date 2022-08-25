@@ -213,15 +213,6 @@ export function show(balanceSheet) {
   });
 }
 
-/**
- * Set the link to Haushaltsplan.pdf on the "Allgemein" tab
- * to point to the file for the given year
- * @param {int} year 
- */
-export function setHaushaltsplanLink(year) {
-  $("#haushaltsplan-link").attr("href", "data/"+year+"/Haushaltsplan.pdf");
-}
-
 export function initialize() {
   Highcharts.setOptions({
     lang: {

@@ -11,8 +11,6 @@ export function initialize() {
   let tabs = $(".tab");
   let containers = $(".con");
   let menuItems = $(".tabular .item");
-  // The container containing all chart containers
-  let chartContainerContainer = $("#chartcontainer");
 
   menuItems.on("click", function (event) {
     // The newly selected menu item is the target of this on click event
@@ -22,14 +20,6 @@ export function initialize() {
     let newlySelectedTabName = newlySelectedItem.attr("data-tab");
     let newlySelectedTab = $("#" + newlySelectedTabName);
     let newlySelectedContainer = $("#" + newlySelectedTabName + "container");
-
-    // If the "length" of newlySelectedContainer is 0, it means there is no such
-    // container. In this case, we also hide the chart container container, otherwise, we show it
-    if (newlySelectedContainer.length == 0) {
-      chartContainerContainer.hide();
-    } else {
-      chartContainerContainer.show();
-    }
 
     // First, remove the active class from all tabs and menu items
     // and hide all containers
