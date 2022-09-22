@@ -1,0 +1,31 @@
+[
+  {
+    "id": "0",
+    "parent": "",
+    "title": "Einnahmen",
+    "name": "Einnahmen 2020",
+    "text": "Die Fachschaft hat verschiedene Einnahmequellen, die es uns ermöglichen, unsere Aufgaben sachgerecht zu erfüllen. Der wichtigste Einnahmenposten sind die Beiträge, die alle Studierenden an die Verfasste Studierendenschaft zahlen, aber auch die anderen Quellen sind in dieser Grafik aufgeführt.<br><b>Die Unterposten im Diagramm kann man durch Anklicken auswählen.</b>"
+  },
+  {
+    "id": "0.1",
+    "parent": "0",
+    "name": "Einzahlung Schlüsselpfand",
+    "text": "<p>Die Fakultäten stellen den Fachschaften Räume zur Verfügung. Aktive Fachschaftler können sich Schlüssel leihen, wofür Pfand verlangt wird. Die Einnahme vom Pfand bei der Ausgabe der Schlüssel wird in diesem Haushaltsposten hier abgerechnet.</p>",
+    "value": 325.00
+  },
+  {
+    "id": "0.2",
+    "parent": "0",
+    "name": "Durchlaufposten Schlüsselpfand",
+    "text": "<p>Die Fakultäten stellen den Fachschaften Räume zur Verfügung. Aktive Fachschaftler können sich Schlüssel leihen, wofür Pfand verlangt wird. Das Pfand wird in diesem Posten verwahrt. Durchlaufposten und zweckgebundene Rücklagen tauchen am Ende eines Haushaltsjahres als Ausgabe und am Anfang des Folgejahrs als Einnahme in selber Höhe auf.</p>",
+    "value": 1175.00
+  },
+  {
+    "id": "0.3",
+    "parent": "0",
+    "title": "Einnahmen<br> aus VS-Beiträgen",
+    "name": "Einnahmen aus VS-Beiträgen",
+    "text": "Alle immatrikulierten Studierenden der Universität Heidelberg leisten jedes Semester einen Beitrag zur Verfassten Studierendenschaft (VS) in Höhe von 7,50€. 60% dieses Beitrages fließen als Zuweisung in das Budget der Fachschaften.",
+    "value": 21456.78
+  }
+]
