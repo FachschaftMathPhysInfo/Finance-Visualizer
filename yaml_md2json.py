@@ -61,7 +61,7 @@ def generate_template(tree):
         template += name + '\n===\n\n\n'
     return template
 
-def prosess(tree, texts, parent_id='', counter=0):
+def process(tree, texts, parent_id='', counter=0):
     knot = {}
     knot['name'] = tree['name']
     if parent_id=='':
@@ -75,7 +75,7 @@ def prosess(tree, texts, parent_id='', counter=0):
         knot['value'] = tree['value']
     result = [knot,]
     for i, sub_tree in enumerate(tree.get('children', [])):
-        result.extend(prosess(sub_tree, texts, parent_id=knot['id'], counter=i))
+        result.extend(process(sub_tree, texts, parent_id=knot['id'], counter=i))
     return result
 
 def main():
@@ -116,7 +116,7 @@ def main():
     else:
         tree = get_tree(args['input'])
         texts = get_texts(args['descriptions'])
-        result = prosess(tree, texts)
+        result = process(tree, texts)
         save_result(result, args['restults'])
 
 if __name__=='__main__':
