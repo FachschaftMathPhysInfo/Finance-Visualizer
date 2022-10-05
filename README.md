@@ -1,6 +1,9 @@
 # VS-Finance-Visualizer
 
-Live Version: [mathphys.info/finanzen/](https://mathphys.info/finanzen/)
+#### Live Version:
+- [Version auf dem FS-Server](https://mathphys.info/finanzen/)
+- [Aktuelleste Version des Gits via GitHubPages](https://fachschaftmathphysinfo.github.io/Finance-Visualizer)
+
 
 ![Screenshot](https://mathphys.info/~tbuss/Finance-Visualizer.png)
 
