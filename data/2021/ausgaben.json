@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Ausgaben 2021",
+        "id": "0",
+        "parent": "",
+        "title": "Ausgaben",
+        "text": ""
+    },
+    {
+        "name": "721.0248",
+        "id": "0.0",
+        "parent": "0",
+        "title": "721.0248",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Auszahlung Sticker MathPhysInfo",
+        "id": "0.0.0",
+        "parent": "0.0",
+        "title": "FS MathPhysInfo, Auszahlung Sticker MathPhysInfo",
+        "text": "",
+        "value": 124.81
+    },
+    {
+        "name": "517.0218",
+        "id": "0.1",
+        "parent": "0",
+        "title": "517.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020",
+        "id": "0.1.0",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020",
+        "text": "",
+        "value": 6.2
+    },
+    {
+        "name": "550.0218",
+        "id": "0.2",
+        "parent": "0",
+        "title": "550.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Verl\u00e4ngerung der Domain mathphys.info",
+        "id": "0.2.0",
+        "parent": "0.2",
+        "title": "FS MathPhysInfo, Verl\u00e4ngerung der Domain mathphys.info",
+        "text": "",
+        "value": 19.63
+    },
+    {
+        "name": "511.0218",
+        "id": "0.3",
+        "parent": "0",
+        "title": "511.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Druckpapier",
+        "id": "0.3.0",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, Druckpapier",
+        "text": "",
+        "value": 80.91
+    },
+    {
+        "name": "FS MathPhysInfo, Rede-Mikrofon",
+        "id": "0.3.1",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, Rede-Mikrofon",
+        "text": "",
+        "value": 145.0
+    },
+    {
+        "name": "FS MathPhysInfo, Laptop Lenovo ThinkPad T460",
+        "id": "0.3.2",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, Laptop Lenovo ThinkPad T460",
+        "text": "",
+        "value": 1911.8
+    },
+    {
+        "name": "FS MathPhysInfo, Erneuerungder Domains der FSen MathPhysInfo, 24.03.2021-31.03.2022",
+        "id": "0.3.3",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, Erneuerungder Domains der FSen MathPhysInfo, 24.03.2021-31.03.2022",
+        "text": "",
+        "value": 4.65
+    },
+    {
+        "name": "FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020, Schrankmiete",
+        "id": "0.3.4",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020, Schrankmiete",
+        "text": "",
+        "value": 333.03
+    },
+    {
+        "name": "FS MathPhysInfo, B\u00fcromaterial",
+        "id": "0.3.5",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, B\u00fcromaterial",
+        "text": "",
+        "value": 491.83
+    },
+    {
+        "name": "FS MathPhysInfo, B\u00fcromaterial",
+        "id": "0.3.6",
+        "parent": "0.3",
+        "title": "FS MathPhysInfo, B\u00fcromaterial",
+        "text": "",
+        "value": 335.33
+    },
+    {
+        "name": "515.0218",
+        "id": "0.4",
+        "parent": "0",
+        "title": "515.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Bestelung B\u00fcrobedarf Papier & Toner",
+        "id": "0.4.0",
+        "parent": "0.4",
+        "title": "FS MathPhysInfo, Bestelung B\u00fcrobedarf Papier & Toner",
+        "text": "",
+        "value": 367.19
+    },
+    {
+        "name": "640.0218",
+        "id": "0.5",
+        "parent": "0",
+        "title": "640.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPysInfo, Beitrag ZaPF 2021",
+        "id": "0.5.0",
+        "parent": "0.5",
+        "title": "FS MathPysInfo, Beitrag ZaPF 2021",
+        "text": "",
+        "value": 100.0
+    },
+    {
+        "name": "FS MathPhysInfo, Mitgliedsbeitrag Deutsche Mathematiker-Vereinigung 2021, Mitglieds-Nr. 3428",
+        "id": "0.5.1",
+        "parent": "0.5",
+        "title": "FS MathPhysInfo, Mitgliedsbeitrag Deutsche Mathematiker-Vereinigung 2021, Mitglieds-Nr. 3428",
+        "text": "",
+        "value": 210.0
+    },
+    {
+        "name": "FS MathPysInfo, Beitrag ZaPF 2018 - 2020",
+        "id": "0.5.2",
+        "parent": "0.5",
+        "title": "FS MathPysInfo, Beitrag ZaPF 2018 - 2020",
+        "text": "",
+        "value": 300.0
+    },
+    {
+        "name": "935.0218",
+        "id": "0.6",
+        "parent": "0",
+        "title": "935.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon & Physik.Inst.",
+        "id": "0.6.0",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon & Physik.Inst.",
+        "text": "",
+        "value": 100.0
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckzahlung Schl\u00fcsselkaution Mathematikon",
+        "id": "0.6.1",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckzahlung Schl\u00fcsselkaution Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution FS MathPhysInfo, R\u00fcckzahlung ",
+        "id": "0.6.2",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution FS MathPhysInfo, R\u00fcckzahlung ",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution FS-Raum Mathematikon",
+        "id": "0.6.3",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon",
+        "id": "0.6.4",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon",
+        "id": "0.6.5",
+        "parent": "0.6",
+        "title": "FS MathPhysInfo, R\u00fcckerstattung Schl\u00fcsselkaution Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "513.0218",
+        "id": "0.7",
+        "parent": "0",
+        "title": "513.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, LTE Antenne & Kabel",
+        "id": "0.7.0",
+        "parent": "0.7",
+        "title": "FS MathPhysInfo, LTE Antenne & Kabel",
+        "text": "",
+        "value": 81.06
+    },
+    {
+        "name": "FS MathPhysInfo, Konferenzmikrofone",
+        "id": "0.7.1",
+        "parent": "0.7",
+        "title": "FS MathPhysInfo, Konferenzmikrofone",
+        "text": "",
+        "value": 206.58
+    },
+    {
+        "name": "FS Mathphysinfo, Anschaffung Stabmixer samt Topf",
+        "id": "0.7.2",
+        "parent": "0.7",
+        "title": "FS Mathphysinfo, Anschaffung Stabmixer samt Topf",
+        "text": "",
+        "value": 296.16
+    },
+    {
+        "name": "FS MathPhysInfo, Getr\u00e4nkekastenhalter",
+        "id": "0.7.3",
+        "parent": "0.7",
+        "title": "FS MathPhysInfo, Getr\u00e4nkekastenhalter",
+        "text": "",
+        "value": 149.9
+    },
+    {
+        "name": "FS MathPhysInfo, Anschaffung Brettspiele Vorkurs",
+        "id": "0.7.4",
+        "parent": "0.7",
+        "title": "FS MathPhysInfo, Anschaffung Brettspiele Vorkurs",
+        "text": "",
+        "value": 583.26
+    },
+    {
+        "name": "721.0218",
+        "id": "0.8",
+        "parent": "0",
+        "title": "721.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo,DU2485424S8, Lanyards f\u00fcr Vorkurs (Hygienekonzept)",
+        "id": "0.8.0",
+        "parent": "0.8",
+        "title": "FS MathPhysInfo,DU2485424S8, Lanyards f\u00fcr Vorkurs (Hygienekonzept)",
+        "text": "",
+        "value": 557.0
+    },
+    {
+        "name": " FS MathPhysInfo, Getr\u00e4nke Frustcafe ",
+        "id": "0.8.1",
+        "parent": "0.8",
+        "title": " FS MathPhysInfo, Getr\u00e4nke Frustcafe ",
+        "text": "",
+        "value": 178.32
+    },
+    {
+        "name": "FS MathPhysInfo, Verpflegung Masterinformationsveranstaltung 19.10.2021",
+        "id": "0.8.2",
+        "parent": "0.8",
+        "title": "FS MathPhysInfo, Verpflegung Masterinformationsveranstaltung 19.10.2021",
+        "text": "",
+        "value": 183.89
+    },
+    {
+        "name": "710.0218",
+        "id": "0.9",
+        "parent": "0",
+        "title": "710.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, FS-Wochenende 12.-14.11.2021, Verpflegung/K\u00fcchenutensilien",
+        "id": "0.9.0",
+        "parent": "0.9",
+        "title": "FS MathPhysInfo, FS-Wochenende 12.-14.11.2021, Verpflegung/K\u00fcchenutensilien",
+        "text": "",
+        "value": 1711.8
+    },
+    {
+        "name": "533.0218",
+        "id": "0.10",
+        "parent": "0",
+        "title": "533.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Stadtmobil, Rechhnung November 21-1",
+        "id": "0.10.0",
+        "parent": "0.10",
+        "title": "FS MathPhysInfo, Stadtmobil, Rechhnung November 21-1",
+        "text": "",
+        "value": 53.85
+    },
+    {
+        "name": "FS MAthPhysInfo, FS-Wochenende, Stadtmobil",
+        "id": "0.10.1",
+        "parent": "0.10",
+        "title": "FS MAthPhysInfo, FS-Wochenende, Stadtmobil",
+        "text": "",
+        "value": 211.62
+    },
+    {
+        "name": "FS MathPhysInfo, Stadtmobil Oktober 2021/1",
+        "id": "0.10.2",
+        "parent": "0.10",
+        "title": "FS MathPhysInfo, Stadtmobil Oktober 2021/1",
+        "text": "",
+        "value": 65.79
+    },
+    {
+        "name": "710.028",
+        "id": "0.11",
+        "parent": "0",
+        "title": "710.028",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, FS-We 12.11.-14.11.2021 Restzahlung, Ferienkolonie  St. Georg, Re-Nr. 19/2021",
+        "id": "0.11.0",
+        "parent": "0.11",
+        "title": "FS MathPhysInfo, FS-We 12.11.-14.11.2021 Restzahlung, Ferienkolonie  St. Georg, Re-Nr. 19/2021",
+        "text": "",
+        "value": 606.3
+    },
+    {
+        "name": "621.0218",
+        "id": "0.12",
+        "parent": "0",
+        "title": "621.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Pool-Vernetzungstreffen Verpflegung, Hygiene",
+        "id": "0.12.0",
+        "parent": "0.12",
+        "title": "FS MathPhysInfo, Pool-Vernetzungstreffen Verpflegung, Hygiene",
+        "text": "",
+        "value": 29.58
+    },
+    {
+        "name": "531.0218",
+        "id": "0.13",
+        "parent": "0",
+        "title": "531.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Pool-Vernetzungstreffen Fahrtkosten,09.-20.09.2020 ",
+        "id": "0.13.0",
+        "parent": "0.13",
+        "title": "FS MathPhysInfo, Pool-Vernetzungstreffen Fahrtkosten,09.-20.09.2020 ",
+        "text": "",
+        "value": 14.6
+    },
+    {
+        "name": " FS-We 12.11.-14.11.2021 Anzahlung",
+        "id": "0.14",
+        "parent": "0",
+        "title": " FS-We 12.11.-14.11.2021 Anzahlung",
+        "text": ""
+    },
+    {
+        "name": " \"FS MathPhysInfo",
+        "id": "0.14.0",
+        "parent": "0.14",
+        "title": " \"FS MathPhysInfo",
+        "text": "",
+        "value": 200.0
+    }
+]

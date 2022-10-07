@@ -1,0 +1,28 @@
+name: Einnahmen 2021
+short_name: Einnahmen
+children:
+- name: '721.0218'
+  short_name: '721.0218'
+  children:
+  - name: FS MathPhysInfo, Rückzahlung Pfand der letzten Semester
+    value: 175.0
+- name: '915.0218'
+  short_name: '915.0218'
+  children:
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution, FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Schlüsselkaution Mathematikon
+    value: 50.0
+

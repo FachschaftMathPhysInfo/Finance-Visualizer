@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Einnahmen 2021",
+        "id": "0",
+        "parent": "",
+        "title": "Einnahmen",
+        "text": ""
+    },
+    {
+        "name": "721.0218",
+        "id": "0.0",
+        "parent": "0",
+        "title": "721.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, R\u00fcckzahlung Pfand der letzten Semester",
+        "id": "0.0.0",
+        "parent": "0.0",
+        "title": "FS MathPhysInfo, R\u00fcckzahlung Pfand der letzten Semester",
+        "text": "",
+        "value": 175.0
+    },
+    {
+        "name": "915.0218",
+        "id": "0.1",
+        "parent": "0",
+        "title": "915.0218",
+        "text": ""
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.0",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.1",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.2",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.3",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.4",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "id": "0.1.5",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution, FS-Raum Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution Mathematikon",
+        "id": "0.1.6",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution Mathematikon",
+        "text": "",
+        "value": 50.0
+    },
+    {
+        "name": "FS MathPhysInfo, Schl\u00fcsselkaution Mathematikon",
+        "id": "0.1.7",
+        "parent": "0.1",
+        "title": "FS MathPhysInfo, Schl\u00fcsselkaution Mathematikon",
+        "text": "",
+        "value": 50.0
+    }
+]

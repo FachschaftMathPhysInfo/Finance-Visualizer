@@ -1,0 +1,123 @@
+name: Ausgaben 2021
+short_name: Ausgaben
+children:
+- name: '721.0248'
+  short_name: '721.0248'
+  children:
+  - name: FS MathPhysInfo, Auszahlung Sticker MathPhysInfo
+    value: 124.81
+- name: '517.0218'
+  short_name: '517.0218'
+  children:
+  - name: FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020
+    value: 6.2
+- name: '550.0218'
+  short_name: '550.0218'
+  children:
+  - name: FS MathPhysInfo, Verlängerung der Domain mathphys.info
+    value: 19.63
+- name: '511.0218'
+  short_name: '511.0218'
+  children:
+  - name: FS MathPhysInfo, Druckpapier
+    value: 80.91
+  - name: FS MathPhysInfo, Rede-Mikrofon
+    value: 145.0
+  - name: FS MathPhysInfo, Laptop Lenovo ThinkPad T460
+    value: 1911.8
+  - name: FS MathPhysInfo, Erneuerungder Domains der FSen MathPhysInfo, 24.03.2021-31.03.2022
+    value: 4.65
+  - name: FS MathPhysInfo, DAUER, Theoretikum 2. Halbjahr 2020, Schrankmiete
+    value: 333.03
+  - name: FS MathPhysInfo, Büromaterial
+    value: 491.83
+  - name: FS MathPhysInfo, Büromaterial
+    value: 335.33
+- name: '515.0218'
+  short_name: '515.0218'
+  children:
+  - name: FS MathPhysInfo, Bestelung Bürobedarf Papier & Toner
+    value: 367.19
+- name: '640.0218'
+  short_name: '640.0218'
+  children:
+  - name: FS MathPysInfo, Beitrag ZaPF 2021
+    value: 100.0
+  - name: FS MathPhysInfo, Mitgliedsbeitrag Deutsche Mathematiker-Vereinigung 2021,
+      Mitglieds-Nr. 3428
+    value: 210.0
+  - name: FS MathPysInfo, Beitrag ZaPF 2018 - 2020
+    value: 300.0
+- name: '935.0218'
+  short_name: '935.0218'
+  children:
+  - name: FS MathPhysInfo, Rückerstattung Schlüsselkaution Mathematikon & Physik.Inst.
+    value: 100.0
+  - name: FS MathPhysInfo, Rückzahlung Schlüsselkaution Mathematikon
+    value: 50.0
+  - name: 'FS MathPhysInfo, Rückerstattung Schlüsselkaution FS MathPhysInfo, Rückzahlung '
+    value: 50.0
+  - name: FS MathPhysInfo, Rückerstattung Schlüsselkaution FS-Raum Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Rückerstattung Schlüsselkaution Mathematikon
+    value: 50.0
+  - name: FS MathPhysInfo, Rückerstattung Schlüsselkaution Mathematikon
+    value: 50.0
+- name: '513.0218'
+  short_name: '513.0218'
+  children:
+  - name: FS MathPhysInfo, LTE Antenne & Kabel
+    value: 81.06
+  - name: FS MathPhysInfo, Konferenzmikrofone
+    value: 206.58
+  - name: FS Mathphysinfo, Anschaffung Stabmixer samt Topf
+    value: 296.16
+  - name: FS MathPhysInfo, Getränkekastenhalter
+    value: 149.9
+  - name: FS MathPhysInfo, Anschaffung Brettspiele Vorkurs
+    value: 583.26
+- name: '721.0218'
+  short_name: '721.0218'
+  children:
+  - name: FS MathPhysInfo,DU2485424S8, Lanyards für Vorkurs (Hygienekonzept)
+    value: 557.0
+  - name: ' FS MathPhysInfo, Getränke Frustcafe '
+    value: 178.32
+  - name: FS MathPhysInfo, Verpflegung Masterinformationsveranstaltung 19.10.2021
+    value: 183.89
+- name: '710.0218'
+  short_name: '710.0218'
+  children:
+  - name: FS MathPhysInfo, FS-Wochenende 12.-14.11.2021, Verpflegung/Küchenutensilien
+    value: 1711.8
+- name: '533.0218'
+  short_name: '533.0218'
+  children:
+  - name: FS MathPhysInfo, Stadtmobil, Rechhnung November 21-1
+    value: 53.85
+  - name: FS MAthPhysInfo, FS-Wochenende, Stadtmobil
+    value: 211.62
+  - name: FS MathPhysInfo, Stadtmobil Oktober 2021/1
+    value: 65.79
+- name: '710.028'
+  short_name: '710.028'
+  children:
+  - name: FS MathPhysInfo, FS-We 12.11.-14.11.2021 Restzahlung, Ferienkolonie  St.
+      Georg, Re-Nr. 19/2021
+    value: 606.3
+- name: '621.0218'
+  short_name: '621.0218'
+  children:
+  - name: FS MathPhysInfo, Pool-Vernetzungstreffen Verpflegung, Hygiene
+    value: 29.58
+- name: '531.0218'
+  short_name: '531.0218'
+  children:
+  - name: 'FS MathPhysInfo, Pool-Vernetzungstreffen Fahrtkosten,09.-20.09.2020 '
+    value: 14.6
+- name: ' FS-We 12.11.-14.11.2021 Anzahlung'
+  short_name: ' FS-We 12.11.-14.11.2021 Anzahlung'
+  children:
+  - name: ' "FS MathPhysInfo'
+    value: 200.0
+
